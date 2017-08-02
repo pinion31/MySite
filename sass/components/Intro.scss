@@ -1,0 +1,30 @@
+.name-title {
+  font-family: $Aldrich;
+  text-align: center;
+  font-size: 6em;
+}
+
+.job-title {
+  font-family: $Aldrich;
+  text-align: center;
+  font-size: 3em;
+}
+
+.intro {
+  margin: 100px 0px 25px 0px;
+}
+
+.menu-box {
+  display: flex;
+  justify-content: center;
+}
+
+.link-box {
+  background-color: white;
+  color: $background-color;
+  font-family:$OpenSans;
+  margin:10px;
+  border-radius:10px;
+  padding: 0px 10px;
+  font-size: 1em;
+}
