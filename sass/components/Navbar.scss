@@ -1,29 +1,15 @@
 .navbar-default {
   background-color: $background-color;
   border-color: $background-color;
-  color:white;
+  color:$bg-white;
 }
 
 .navbar-default .navbar-nav li a {
-  color:white;
+  color:$bg-white;
   font-family: $OpenSans;
 
   &:hover, &:focus {
-    color:white;
+    color:$bg-white;
   }
 }
-/*
 
-    font-family: 'Open Sans', sans-serif;
-
-    font-family: 'Play, sans-serif';
-
-    font-family: 'Rajdhani, sans-serif';
-
-    font-family: 'Orbitron, sans-serif';
-
-    font-family: 'Russo One, sans-serif';
-
-    font-family: 'Audiowide, cursive';
-
-    font-family: 'Aldrich, sans-serif'; */

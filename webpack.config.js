@@ -9,7 +9,7 @@ module.exports = {
       'react-router-bootstrap', 'react-router-dom'],
   },
   output: {
-    path: 'C:\\Users\\Chris\\Documents\\WebDev\\MyWebsite\\static',
+    path: 'C:\\Users\\Chris\\Documents\\WebDev\\MySite\\static',
     filename: 'app.bundle.js',
   },
   plugins: [

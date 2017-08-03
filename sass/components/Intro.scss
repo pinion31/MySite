@@ -20,11 +20,17 @@
 }
 
 .link-box {
-  background-color: white;
+  background-color: $linkbox-bg-color;
   color: $background-color;
   font-family:$OpenSans;
   margin:10px;
   border-radius:10px;
-  padding: 0px 10px;
+  padding: 0px 15px 5px 15px;
+  font-size: 2em;
+  cursor:pointer;
+}
+
+
+.link-box h1 {
   font-size: 1em;
 }

@@ -10,7 +10,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(226);
+__webpack_require__(227);
 
 var _reactDom = __webpack_require__(31);
 
@@ -74,7 +74,7 @@ exports = module.exports = __webpack_require__(646)(undefined);
 
 
 // module
-exports.push([module.i, "/*#app {\r\n  background : $background-color;\r\n  background: -webkit-linear-gradient(red, yellow);\r\n  background: -o-linear-gradient(red, yellow);\r\n  background: -moz-linear-gradient(red, yellow);\r\n  background: linear-gradient($background-color, gray);\r\n  color:white;\r\n}*/\nbody {\n  background: #354A65;\n  color: white; }\n\n.name-title {\n  font-family: \"Aldrich\", sans-serif;\n  text-align: center;\n  font-size: 6em; }\n\n.job-title {\n  font-family: \"Aldrich\", sans-serif;\n  text-align: center;\n  font-size: 3em; }\n\n.intro {\n  margin: 100px 0px 25px 0px; }\n\n.menu-box {\n  display: flex;\n  justify-content: center; }\n\n.link-box {\n  background-color: white;\n  color: #354A65;\n  font-family: \"Open Sans\", sans-serif;\n  margin: 10px;\n  border-radius: 10px;\n  padding: 0px 10px;\n  h1-font-size: 1em; }\n\n.navbar-default {\n  background-color: #354A65;\n  border-color: #354A65;\n  color: white; }\n\n.navbar-default .navbar-nav li a {\n  color: white;\n  font-family: \"Open Sans\", sans-serif; }\n  .navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus {\n    color: white; }\n\n/*\r\n\r\n    font-family: 'Open Sans', sans-serif;\r\n\r\n    font-family: 'Play, sans-serif';\r\n\r\n    font-family: 'Rajdhani, sans-serif';\r\n\r\n    font-family: 'Orbitron, sans-serif';\r\n\r\n    font-family: 'Russo One, sans-serif';\r\n\r\n    font-family: 'Audiowide, cursive';\r\n\r\n    font-family: 'Aldrich, sans-serif'; */\n", ""]);
+exports.push([module.i, "/*#app {\r\n  background : $background-color;\r\n  background: -webkit-linear-gradient(red, yellow);\r\n  background: -o-linear-gradient(red, yellow);\r\n  background: -moz-linear-gradient(red, yellow);\r\n  background: linear-gradient($background-color, gray);\r\n  color:white;\r\n}*/\nbody {\n  color: antiquewhite;\n  background: #09203D; }\n\nimg {\n  width: 250px;\n  height: 250px;\n  margin-top: 20px; }\n\n.thumbnail {\n  background-color: antiquewhite; }\n\n.thumbnail-title {\n  text-align: center; }\n\n.thumbnail-text {\n  text-align: center; }\n  .thumbnail-text img {\n    width: 150px;\n    margin: 0px; }\n\n.thumb-box {\n  margin: 20px;\n  text-align: left;\n  margin-bottom: 50px; }\n\n.download-links {\n  display: flex;\n  justify-content: space-around; }\n\n.border {\n  border: 1px solid silver;\n  padding: 4px; }\n\n.name-title {\n  font-family: \"Aldrich\", sans-serif;\n  text-align: center;\n  font-size: 6em; }\n\n.job-title {\n  font-family: \"Aldrich\", sans-serif;\n  text-align: center;\n  font-size: 3em; }\n\n.intro {\n  margin: 100px 0px 25px 0px; }\n\n.menu-box {\n  display: flex;\n  justify-content: center; }\n\n.link-box {\n  background-color: gray;\n  color: #09203D;\n  font-family: \"Open Sans\", sans-serif;\n  margin: 10px;\n  border-radius: 10px;\n  padding: 0px 15px 5px 15px;\n  font-size: 2em;\n  cursor: pointer; }\n\n.link-box h1 {\n  font-size: 1em; }\n\n.navbar-default {\n  background-color: #09203D;\n  border-color: #09203D;\n  color: antiquewhite; }\n\n.navbar-default .navbar-nav li a {\n  color: antiquewhite;\n  font-family: \"Open Sans\", sans-serif; }\n  .navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus {\n    color: antiquewhite; }\n\n.footer {\n  background-color: #292929; }\n\n.footer-title {\n  margin-bottom: 20px;\n  font-size: 2em; }\n\n.main {\n  margin-bottom: 200px; }\n", ""]);
 
 // exports
 
@@ -636,7 +636,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactBootstrap = __webpack_require__(284);
+var _reactBootstrap = __webpack_require__(134);
 
 var _reactRouterBootstrap = __webpack_require__(332);
 
@@ -652,9 +652,9 @@ var _Projects = __webpack_require__(789);
 
 var _Projects2 = _interopRequireDefault(_Projects);
 
-var _Intro = __webpack_require__(790);
+var _FooterContent = __webpack_require__(790);
 
-var _Intro2 = _interopRequireDefault(_Intro);
+var _FooterContent2 = _interopRequireDefault(_FooterContent);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -703,7 +703,7 @@ var NavBarHead = function NavBarHead() {
         _react2.default.createElement(
           _reactBootstrap.NavItem,
           null,
-          'Projects'
+          'My Work'
         )
       ),
       _react2.default.createElement(
@@ -746,14 +746,78 @@ var NavBarHead = function NavBarHead() {
   );
 };
 
+var Intro = function Intro() {
+  return _react2.default.createElement(
+    'div',
+    null,
+    _react2.default.createElement(
+      'div',
+      { className: 'intro' },
+      _react2.default.createElement(
+        'h1',
+        { className: 'name-title' },
+        'Chris Cantu'
+      ),
+      _react2.default.createElement(
+        'h1',
+        { className: 'job-title' },
+        'Web Developer'
+      )
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'menu-box' },
+      _react2.default.createElement(
+        'div',
+        { className: 'link-box' },
+        _react2.default.createElement(
+          _reactRouterBootstrap.LinkContainer,
+          { to: '/Projects' },
+          _react2.default.createElement(
+            'h1',
+            null,
+            'My Work'
+          )
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'link-box' },
+        _react2.default.createElement(
+          _reactRouterBootstrap.LinkContainer,
+          { to: '/AboutMe' },
+          _react2.default.createElement(
+            'h1',
+            null,
+            'About Me'
+          )
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'link-box' },
+        _react2.default.createElement(
+          _reactRouterBootstrap.LinkContainer,
+          { to: '/ContactMe' },
+          _react2.default.createElement(
+            'h1',
+            null,
+            'Contact'
+          )
+        )
+      )
+    )
+  );
+};
+
 var MainContent = function MainContent() {
   return _react2.default.createElement(
     'main',
-    null,
+    { className: 'main' },
     _react2.default.createElement(
       _reactRouterDom.Switch,
       null,
-      _react2.default.createElement(_reactRouter.Route, { exact: true, path: '/', component: _Intro2.default }),
+      _react2.default.createElement(_reactRouter.Route, { exact: true, path: '/', component: Intro }),
       _react2.default.createElement(_reactRouter.Route, { path: '/Projects', component: _Projects2.default }),
       _react2.default.createElement(_reactRouter.Route, { path: '/AboutMe', component: _AboutMe2.default }),
       _react2.default.createElement(_reactRouter.Route, { path: '*', component: NoMatch })
@@ -767,7 +831,12 @@ var RoutedApp = function (_Component) {
   function RoutedApp(props) {
     _classCallCheck(this, RoutedApp);
 
-    return _possibleConstructorReturn(this, (RoutedApp.__proto__ || Object.getPrototypeOf(RoutedApp)).call(this, props));
+    var _this = _possibleConstructorReturn(this, (RoutedApp.__proto__ || Object.getPrototypeOf(RoutedApp)).call(this, props));
+
+    _this.state = {
+      showNavBar: false
+    };
+    return _this;
   }
 
   _createClass(RoutedApp, [{
@@ -778,7 +847,11 @@ var RoutedApp = function (_Component) {
         null,
         _react2.default.createElement(NavBarHead, null),
         _react2.default.createElement(MainContent, null),
-        _react2.default.createElement('footer', null)
+        _react2.default.createElement(
+          'footer',
+          null,
+          _react2.default.createElement(_FooterContent2.default, null)
+        )
       );
     }
   }]);
@@ -832,17 +905,151 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _reactBootstrap = __webpack_require__(134);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Projects = function Projects() {
   return _react2.default.createElement(
-    'h1',
+    'div',
     null,
-    'Projects'
+    _react2.default.createElement(
+      _reactBootstrap.Grid,
+      null,
+      _react2.default.createElement(
+        _reactBootstrap.Row,
+        null,
+        _react2.default.createElement(
+          _reactBootstrap.Col,
+          { xs: 6, md: 2, className: 'link-box thumb-box' },
+          _react2.default.createElement(
+            'h1',
+            null,
+            'My Work'
+          )
+        )
+      ),
+      _react2.default.createElement(
+        _reactBootstrap.Row,
+        null,
+        _react2.default.createElement(
+          _reactBootstrap.Col,
+          { xs: 6, md: 4 },
+          _react2.default.createElement(
+            _reactBootstrap.Thumbnail,
+            { alt: 'Voterific' },
+            _react2.default.createElement(
+              'h3',
+              { className: 'thumbnail-title' },
+              'Voterific '
+            ),
+            _react2.default.createElement(
+              'p',
+              { className: 'thumbnail-text' },
+              'A Full-Stack App To Create Online Polls'
+            )
+          )
+        ),
+        _react2.default.createElement(
+          _reactBootstrap.Col,
+          { xs: 6, md: 4 },
+          _react2.default.createElement(
+            _reactBootstrap.Thumbnail,
+            { alt: 'Night Flight' },
+            _react2.default.createElement(
+              'h3',
+              { className: 'thumbnail-title' },
+              'Night Flight '
+            ),
+            _react2.default.createElement(
+              'p',
+              { className: 'thumbnail-text' },
+              'A Full-Stack App for Nightlife Coordination'
+            )
+          )
+        )
+      ),
+      _react2.default.createElement(
+        _reactBootstrap.Row,
+        null,
+        _react2.default.createElement(
+          _reactBootstrap.Col,
+          { xs: 6, md: 3, className: 'link-box thumb-box' },
+          _react2.default.createElement(
+            'h1',
+            null,
+            'Other Projects'
+          )
+        )
+      ),
+      _react2.default.createElement(
+        _reactBootstrap.Row,
+        null,
+        _react2.default.createElement(
+          _reactBootstrap.Col,
+          { xs: 6, md: 4 },
+          _react2.default.createElement(
+            _reactBootstrap.Thumbnail,
+            { src: '../media/ChessRunner.png', alt: 'Chess Runner' },
+            _react2.default.createElement(
+              'h3',
+              { className: 'thumbnail-title' },
+              'Chess Runner '
+            ),
+            _react2.default.createElement(
+              'p',
+              { className: 'thumbnail-text' },
+              'Endless Runner Meets Real-time Chess'
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'download-links' },
+              _react2.default.createElement(
+                'a',
+                { href: 'http://bit.ly/1OtX60z', className: 'thumbnail-text' },
+                _react2.default.createElement('img', { src: '../media/googleplay.jpg', alt: 'Download Chess Runner' })
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: 'http://apple.co/1VMk1Fx', className: 'thumbnail-text' },
+                _react2.default.createElement('img', { src: '../media/appstore.jpg', alt: 'Download Chess Runner' })
+              )
+            )
+          )
+        ),
+        _react2.default.createElement(
+          _reactBootstrap.Col,
+          { xs: 6, md: 4 },
+          _react2.default.createElement(
+            _reactBootstrap.Thumbnail,
+            { src: '../media/EndlessFootball.png', alt: 'Endless Football' },
+            _react2.default.createElement(
+              'h3',
+              { className: 'thumbnail-title' },
+              'Endless Football'
+            ),
+            _react2.default.createElement(
+              'p',
+              { className: 'thumbnail-text' },
+              'Football Arcade Game'
+            ),
+            _react2.default.createElement(
+              'a',
+              { href: 'https://play.google.com/store/apps/details?id=com.DaliBlue.EndlessFootball&hl=en',
+                className: 'thumbnail-text' },
+              _react2.default.createElement('img', { src: '../media/googleplay.jpg', alt: 'Download Endless Football' })
+            )
+          )
+        )
+      )
+    )
   );
 };
 
 exports.default = Projects;
+
+// <p className='thumbnail-text'>Google Play</p>
+// <p className='thumbnail-text'>App Store</p>
 
 /***/ }),
 
@@ -860,61 +1067,100 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _reactBootstrap = __webpack_require__(134);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Intro = function Intro() {
+var FooterContent = function FooterContent() {
   return _react2.default.createElement(
     'div',
-    null,
+    { className: 'footer' },
     _react2.default.createElement(
-      'div',
-      { className: 'intro' },
+      _reactBootstrap.Row,
+      null,
       _react2.default.createElement(
-        'h1',
-        { className: 'name-title' },
-        'Chris Cantu'
-      ),
-      _react2.default.createElement(
-        'h1',
-        { className: 'job-title' },
-        'Web Developer'
+        _reactBootstrap.Col,
+        { xs: 8, xsOffset: 1, md: 4, mdOffset: 1 },
+        _react2.default.createElement(
+          'div',
+          null,
+          _react2.default.createElement(
+            'h3',
+            null,
+            'Chris Cantu'
+          )
+        )
       )
     ),
     _react2.default.createElement(
-      'div',
-      { className: 'menu-box' },
+      _reactBootstrap.Row,
+      null,
       _react2.default.createElement(
-        'div',
-        { className: 'link-box' },
+        _reactBootstrap.Col,
+        { xs: 4, xsOffset: 1, md: 2, mdOffset: 1 },
         _react2.default.createElement(
-          'h1',
+          'div',
           null,
-          'My Work'
+          _react2.default.createElement(
+            'p',
+            null,
+            'Home'
+          ),
+          _react2.default.createElement(
+            'p',
+            null,
+            'My Work'
+          ),
+          _react2.default.createElement(
+            'p',
+            null,
+            'About Me'
+          ),
+          _react2.default.createElement(
+            'p',
+            null,
+            'Blog'
+          ),
+          _react2.default.createElement(
+            'p',
+            null,
+            'Contact'
+          )
         )
       ),
       _react2.default.createElement(
-        'div',
-        { className: 'link-box' },
+        _reactBootstrap.Col,
+        { xs: 4, md: 2 },
         _react2.default.createElement(
-          'h1',
+          'div',
           null,
-          'About Me'
-        )
-      ),
-      _react2.default.createElement(
-        'div',
-        { className: 'link-box' },
-        _react2.default.createElement(
-          'h1',
-          null,
-          'Contact Me'
+          _react2.default.createElement(
+            'p',
+            null,
+            'GitHub'
+          ),
+          _react2.default.createElement(
+            'p',
+            null,
+            'Twitter'
+          ),
+          _react2.default.createElement(
+            'p',
+            null,
+            'Facebook'
+          ),
+          _react2.default.createElement(
+            'p',
+            null,
+            'Reddit'
+          )
         )
       )
     )
   );
 };
 
-exports.default = Intro;
+exports.default = FooterContent;
 
 /***/ })
 

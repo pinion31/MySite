@@ -5,6 +5,7 @@ import {Route} from 'react-router';
 import {Switch} from 'react-router-dom';
 import AboutMe from './AboutMe';
 import Projects from './Projects';
+import FooterContent from './FooterContent';
 
 const NoMatch = () => <h2>This page does not exist! Please go back!</h2>;
 
@@ -22,7 +23,7 @@ const NoMatch = () => <h2>This page does not exist! Please go back!</h2>;
           </LinkContainer>
            <LinkContainer to='/Projects'>
             <NavItem>
-              Projects
+              My Work
             </NavItem>
           </LinkContainer>
           <LinkContainer to='/AboutMe'>
@@ -70,7 +71,7 @@ const NoMatch = () => <h2>This page does not exist! Please go back!</h2>;
         </div>
         <div className='link-box'>
           <LinkContainer to='/ContactMe'>
-            <h1>Contact Me</h1>
+            <h1>Contact</h1>
           </LinkContainer>
         </div>
       </div>
@@ -80,7 +81,7 @@ const NoMatch = () => <h2>This page does not exist! Please go back!</h2>;
 
 const MainContent = () => {
     return (
-      <main>
+      <main className="main">
         <Switch>
           <Route exact path="/" component={Intro} />
           <Route path="/Projects" component={Projects} />
@@ -107,6 +108,7 @@ class RoutedApp extends Component {
         <NavBarHead />
         <MainContent/>
         <footer>
+          <FooterContent/>
         </footer>
       </div>
     );
