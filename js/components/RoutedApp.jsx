@@ -5,6 +5,8 @@ import {Route} from 'react-router';
 import {Switch} from 'react-router-dom';
 import AboutMe from './AboutMe';
 import Projects from './Projects';
+import Contact from './Contact';
+import Blog from './Blog';
 import FooterContent from './FooterContent';
 
 const NoMatch = () => <h2>This page does not exist! Please go back!</h2>;
@@ -12,18 +14,10 @@ const NoMatch = () => <h2>This page does not exist! Please go back!</h2>;
  const NavBarHead = () => {
     return (
       <Navbar>
-        <Navbar.Header>
-          <Navbar.Brand>Chris Cantu</Navbar.Brand>
-        </Navbar.Header>
-        <Nav pullRight>
+         <Nav pullRight>
           <LinkContainer to='/'>
             <NavItem>
               Home
-            </NavItem>
-          </LinkContainer>
-           <LinkContainer to='/Projects'>
-            <NavItem>
-              My Work
             </NavItem>
           </LinkContainer>
           <LinkContainer to='/AboutMe'>
@@ -46,6 +40,26 @@ const NoMatch = () => <h2>This page does not exist! Please go back!</h2>;
               <em className="icon-github-circle"></em>
             </NavItem>
           </LinkContainer>
+          <LinkContainer to='/GitHub'>
+            <NavItem>
+              <img className='other-social-icons' src='../media/Linkedin.png'/>
+            </NavItem>
+          </LinkContainer>
+          <LinkContainer to='/GitHub'>
+            <NavItem>
+              <img className='other-social-icons' src='../media/Facebook.png'/>
+            </NavItem>
+          </LinkContainer>
+          <LinkContainer to='/GitHub'>
+            <NavItem>
+              <img className='other-social-icons' src='../media/Twitter.png'/>
+            </NavItem>
+          </LinkContainer>
+          <LinkContainer to='/GitHub'>
+            <NavItem>
+              <img className='other-social-icons' src='../media/Reddit.png'/>
+            </NavItem>
+          </LinkContainer>
           </Nav>
        </Navbar>
     );
@@ -58,23 +72,7 @@ const NoMatch = () => <h2>This page does not exist! Please go back!</h2>;
          <h1 className='name-title'>Chris Cantu</h1>
          <h1 className='job-title'>Web Developer</h1>
       </div>
-      <div className='menu-box'>
-        <div className='link-box'>
-          <LinkContainer to='/Projects'>
-            <h1>My Work</h1>
-          </LinkContainer>
-        </div>
-        <div className='link-box'>
-          <LinkContainer to='/AboutMe'>
-            <h1>About Me</h1>
-          </LinkContainer>
-        </div>
-        <div className='link-box'>
-          <LinkContainer to='/ContactMe'>
-            <h1>Contact</h1>
-          </LinkContainer>
-        </div>
-      </div>
+      <Projects />
     </div>
   );
 };
@@ -84,8 +82,9 @@ const MainContent = () => {
       <main className="main">
         <Switch>
           <Route exact path="/" component={Intro} />
-          <Route path="/Projects" component={Projects} />
           <Route path="/AboutMe" component={AboutMe} />
+          <Route path="/Blog" component={Blog} />
+          <Route path="/Contact" component={Contact} />
           <Route path="*" component={NoMatch} />
         </Switch>
       </main>

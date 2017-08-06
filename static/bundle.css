@@ -29,6 +29,17 @@ img {
   font-weight: bold;
 }
 
+.link-box {
+  color: white;
+  margin: 10px;
+  padding: 0px 15px 5px 15px;
+}
+
+.link-box h1 {
+  font-size: 3em;
+  font-family: "Roboto", sans-serif;
+}
+
 .site-image {
   width: 300px;
   height: 150px;
@@ -72,13 +83,13 @@ img {
 }
 
 .name-title {
-  font-family: "Aldrich", sans-serif;
+  font-family: "Lato", sans-serif;
   text-align: center;
-  font-size: 6em;
+  font-size: 7em;
 }
 
 .job-title {
-  font-family: "Aldrich", sans-serif;
+  font-family: "Lato", sans-serif;
   text-align: center;
   font-size: 3em;
 }
@@ -90,20 +101,6 @@ img {
 .menu-box {
   display: flex;
   justify-content: center;
-}
-
-.link-box {
-  color: white;
-  font-family: "Open Sans", sans-serif;
-  margin: 10px;
-  border-radius: 10px;
-  padding: 0px 15px 5px 15px;
-  font-size: 2em;
-  cursor: pointer;
-}
-
-.link-box h1 {
-  font-size: 1em;
 }
 
 .navbar-default {
@@ -127,6 +124,7 @@ img {
 
 .footer {
   background-color: #292929;
+  padding: 20px 0px 100px 10px;
 }
 
 .footer-title {
@@ -169,7 +167,12 @@ img {
   color: purple;
 }
 
-.icon-github {
+.icon-github-circle {
   color: white;
-  font-size: 3em;
+  font-size: 2em;
+}
+
+.other-social-icons {
+  width: 75%;
+  height: 75%;
 }

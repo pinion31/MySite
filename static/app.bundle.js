@@ -73,7 +73,15 @@ var _Projects = __webpack_require__(785);
 
 var _Projects2 = _interopRequireDefault(_Projects);
 
-var _FooterContent = __webpack_require__(786);
+var _Contact = __webpack_require__(786);
+
+var _Contact2 = _interopRequireDefault(_Contact);
+
+var _Blog = __webpack_require__(787);
+
+var _Blog2 = _interopRequireDefault(_Blog);
+
+var _FooterContent = __webpack_require__(788);
 
 var _FooterContent2 = _interopRequireDefault(_FooterContent);
 
@@ -98,15 +106,6 @@ var NavBarHead = function NavBarHead() {
     _reactBootstrap.Navbar,
     null,
     _react2.default.createElement(
-      _reactBootstrap.Navbar.Header,
-      null,
-      _react2.default.createElement(
-        _reactBootstrap.Navbar.Brand,
-        null,
-        'Chris Cantu'
-      )
-    ),
-    _react2.default.createElement(
       _reactBootstrap.Nav,
       { pullRight: true },
       _react2.default.createElement(
@@ -116,15 +115,6 @@ var NavBarHead = function NavBarHead() {
           _reactBootstrap.NavItem,
           null,
           'Home'
-        )
-      ),
-      _react2.default.createElement(
-        _reactRouterBootstrap.LinkContainer,
-        { to: '/Projects' },
-        _react2.default.createElement(
-          _reactBootstrap.NavItem,
-          null,
-          'My Work'
         )
       ),
       _react2.default.createElement(
@@ -151,7 +141,7 @@ var NavBarHead = function NavBarHead() {
         _react2.default.createElement(
           _reactBootstrap.NavItem,
           null,
-          'Contact Me'
+          'Contact'
         )
       ),
       _react2.default.createElement(
@@ -160,7 +150,43 @@ var NavBarHead = function NavBarHead() {
         _react2.default.createElement(
           _reactBootstrap.NavItem,
           null,
-          _react2.default.createElement('em', { className: 'icon-github' })
+          _react2.default.createElement('em', { className: 'icon-github-circle' })
+        )
+      ),
+      _react2.default.createElement(
+        _reactRouterBootstrap.LinkContainer,
+        { to: '/GitHub' },
+        _react2.default.createElement(
+          _reactBootstrap.NavItem,
+          null,
+          _react2.default.createElement('img', { className: 'other-social-icons', src: '../media/Linkedin.png' })
+        )
+      ),
+      _react2.default.createElement(
+        _reactRouterBootstrap.LinkContainer,
+        { to: '/GitHub' },
+        _react2.default.createElement(
+          _reactBootstrap.NavItem,
+          null,
+          _react2.default.createElement('img', { className: 'other-social-icons', src: '../media/Facebook.png' })
+        )
+      ),
+      _react2.default.createElement(
+        _reactRouterBootstrap.LinkContainer,
+        { to: '/GitHub' },
+        _react2.default.createElement(
+          _reactBootstrap.NavItem,
+          null,
+          _react2.default.createElement('img', { className: 'other-social-icons', src: '../media/Twitter.png' })
+        )
+      ),
+      _react2.default.createElement(
+        _reactRouterBootstrap.LinkContainer,
+        { to: '/GitHub' },
+        _react2.default.createElement(
+          _reactBootstrap.NavItem,
+          null,
+          _react2.default.createElement('img', { className: 'other-social-icons', src: '../media/Reddit.png' })
         )
       )
     )
@@ -185,49 +211,7 @@ var Intro = function Intro() {
         'Web Developer'
       )
     ),
-    _react2.default.createElement(
-      'div',
-      { className: 'menu-box' },
-      _react2.default.createElement(
-        'div',
-        { className: 'link-box' },
-        _react2.default.createElement(
-          _reactRouterBootstrap.LinkContainer,
-          { to: '/Projects' },
-          _react2.default.createElement(
-            'h1',
-            null,
-            'My Work'
-          )
-        )
-      ),
-      _react2.default.createElement(
-        'div',
-        { className: 'link-box' },
-        _react2.default.createElement(
-          _reactRouterBootstrap.LinkContainer,
-          { to: '/AboutMe' },
-          _react2.default.createElement(
-            'h1',
-            null,
-            'About Me'
-          )
-        )
-      ),
-      _react2.default.createElement(
-        'div',
-        { className: 'link-box' },
-        _react2.default.createElement(
-          _reactRouterBootstrap.LinkContainer,
-          { to: '/ContactMe' },
-          _react2.default.createElement(
-            'h1',
-            null,
-            'Contact'
-          )
-        )
-      )
-    )
+    _react2.default.createElement(_Projects2.default, null)
   );
 };
 
@@ -239,8 +223,9 @@ var MainContent = function MainContent() {
       _reactRouterDom.Switch,
       null,
       _react2.default.createElement(_reactRouter.Route, { exact: true, path: '/', component: Intro }),
-      _react2.default.createElement(_reactRouter.Route, { path: '/Projects', component: _Projects2.default }),
       _react2.default.createElement(_reactRouter.Route, { path: '/AboutMe', component: _AboutMe2.default }),
+      _react2.default.createElement(_reactRouter.Route, { path: '/Blog', component: _Blog2.default }),
+      _react2.default.createElement(_reactRouter.Route, { path: '/Contact', component: _Contact2.default }),
       _react2.default.createElement(_reactRouter.Route, { path: '*', component: NoMatch })
     )
   );
@@ -342,11 +327,11 @@ var Projects = function Projects() {
         null,
         _react2.default.createElement(
           _reactBootstrap.Col,
-          { xs: 6, md: 2, className: 'link-box thumb-box' },
+          { xs: 6, md: 4, className: 'link-box thumb-box' },
           _react2.default.createElement(
             'h1',
             null,
-            'My Work'
+            'Portfolio'
           )
         )
       ),
@@ -483,7 +468,7 @@ var Projects = function Projects() {
         null,
         _react2.default.createElement(
           _reactBootstrap.Col,
-          { xs: 6, md: 3, className: 'link-box thumb-box' },
+          { xs: 6, md: 4, className: 'link-box thumb-box' },
           _react2.default.createElement(
             'h1',
             null,
@@ -576,6 +561,54 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Contact = function Contact() {
+  return _react2.default.createElement('div', null);
+};
+
+exports.default = Contact;
+
+/***/ }),
+
+/***/ 787:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Blog = function Blog() {
+  return _react2.default.createElement('div', null);
+};
+
+exports.default = Blog;
+
+/***/ }),
+
+/***/ 788:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
 var _reactBootstrap = __webpack_require__(134);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -614,11 +647,6 @@ var FooterContent = function FooterContent() {
             'p',
             null,
             'Home'
-          ),
-          _react2.default.createElement(
-            'p',
-            null,
-            'My Work'
           ),
           _react2.default.createElement(
             'p',

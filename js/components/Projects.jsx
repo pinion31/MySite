@@ -6,8 +6,8 @@ const Projects = () => {
     <div>
       <Grid>
       <Row>
-      <Col xs={6} md={2} className="link-box thumb-box">
-        <h1>My Work</h1>
+      <Col xs={6} md={4} className="link-box thumb-box">
+        <h1>Portfolio</h1>
       </Col>
       </Row>
         <Row>
@@ -49,7 +49,7 @@ const Projects = () => {
           </Col>
         </Row>
         <Row>
-      <Col xs={6} md={3} className="link-box thumb-box">
+      <Col xs={6} md={4} className="link-box thumb-box">
         <h1>Other Projects</h1>
       </Col>
       </Row>

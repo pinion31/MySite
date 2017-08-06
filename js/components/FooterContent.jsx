@@ -14,7 +14,6 @@ const FooterContent = () =>
         <Col xs={4} xsOffset={1} md={2} mdOffset={1}>
           <div>
             <p>Home</p>
-            <p>My Work</p>
             <p>About Me</p>
             <p>Blog</p>
             <p>Contact</p>
