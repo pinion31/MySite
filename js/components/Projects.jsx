@@ -1,31 +1,55 @@
 import React from 'react';
-import {Grid, Row, Col, Thumbnail} from 'react-bootstrap';
+import {Grid, Row, Col, Thumbnail, Image} from 'react-bootstrap';
 
 const Projects = () => {
   return (
     <div>
       <Grid>
       <Row>
-      <Col xs={6} md={2} className='link-box thumb-box'>
+      <Col xs={6} md={2} className="link-box thumb-box">
         <h1>My Work</h1>
       </Col>
       </Row>
         <Row>
           <Col xs={6} md={4}>
-            <Thumbnail alt='Voterific'>
-              <h3 className='thumbnail-title'>Voterific </h3>
-              <p className='thumbnail-text'>A Full-Stack App To Create Online Polls</p>
+            <Thumbnail>
+              <Image className="site-image" src="../media/voterific.png" alt="Voterific" responsive/>
+              <h3 className="thumbnail-title">Voterific </h3>
+              <p className="thumbnail-text">A Full-Stack App To Create Online Polls</p>
+              <div className="app-links">
+                  <a href="https://github.com/pinion31/Voterific" target="_blank">Github</a>
+                  <a href="https://voterific.herokuapp.com" target="_blank">App Site</a>
+              </div>
+              <div className="tech-icons">
+                <em className="icon-react"> </em>
+                <em className="icon-nodejs"> </em>
+                <span className="icon-express-alt">e</span>
+                <em className="icon-mongodb"> </em>
+                <em className="icon-bootstrap"> </em>
+              </div>
             </Thumbnail>
           </Col>
           <Col xs={6} md={4}>
-            <Thumbnail alt='Night Flight'>
-              <h3 className='thumbnail-title'>Night Flight </h3>
-              <p className='thumbnail-text'>A Full-Stack App for Nightlife Coordination</p>
+            <Thumbnail>
+              <Image className="site-image" src="../media/nightflight.png" alt="Nightflight" responsive/>
+              <h3 className="thumbnail-title">Night Flight </h3>
+              <p className="thumbnail-text">A Full-Stack App for Nightlife Coordination</p>
+              <div className="app-links">
+                  <a href="https://github.com/pinion31/NightFlight" target="_blank">Github</a>
+                  <a href="https://nightflight.herokuapp.com" target="_blank">App Site</a>
+              </div>
+              <div className="tech-icons">
+                <em className="icon-react"> </em>
+                <em className="icon-nodejs"> </em>
+                <span className="icon-express-alt">e</span>
+                <em className="icon-mongodb"> </em>
+                <em className="icon-bootstrap"> </em>
+              </div>
             </Thumbnail>
           </Col>
         </Row>
         <Row>
-      <Col xs={6} md={3} className='link-box thumb-box'>
+      <Col xs={6} md={3} className="link-box thumb-box">
         <h1>Other Projects</h1>
       </Col>
       </Row>

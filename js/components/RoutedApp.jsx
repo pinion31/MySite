@@ -38,12 +38,12 @@ const NoMatch = () => <h2>This page does not exist! Please go back!</h2>;
           </LinkContainer>
           <LinkContainer to='/ContactMe'>
             <NavItem>
-              Contact Me
+              Contact
             </NavItem>
           </LinkContainer>
            <LinkContainer to='/GitHub'>
             <NavItem>
-              GitHub
+              <em className="icon-github-circle"></em>
             </NavItem>
           </LinkContainer>
           </Nav>

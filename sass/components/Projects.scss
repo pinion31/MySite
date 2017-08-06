@@ -4,12 +4,28 @@ img {
   margin-top: 20px;
 }
 
+.app-links {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+
+}
+
+.site-image {
+  width:300px;
+  height: 150px;
+  margin-top: 0px;
+  margin-left:5%;
+  box-shadow: 5px 5px 5px grey;
+}
+
 .thumbnail {
   background-color: $bg-white;
 }
 
 .thumbnail-title {
   text-align:center;
+  font-weight: bold;
 }
 
 .thumbnail-text {

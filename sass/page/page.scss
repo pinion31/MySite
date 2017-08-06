@@ -9,7 +9,13 @@
 
 body {
   color:$bg-white;
-  background : $background-color;
+  //background : $background-color;
+  background: url($background-location);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 h1 {
