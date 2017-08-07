@@ -9,12 +9,40 @@
   border:none;
 }
 
+.navbar-default .navbar-nav  .active a {
+  background: transparent;
+  color:$bg-white;
+
+  &:focus {
+    color:black;
+    //color:blue;
+  }
+}
+
+.navbar-nav li a {
+  padding-bottom: 10px;
+}
+
+.navbar-right li a {
+  &:hover, &:focus, &:active{
+    background: $bg-white;
+  }
+}
+
 .navbar-default .navbar-nav li a {
   color:$bg-white;
   font-family: $OpenSans;
 
-  &:hover, &:focus {
-    color:$bg-white;
+  &:hover, &:focus, &:active{
+    color:black;
+    background: $bg-white;
   }
+}
+
+.navbar-default  .navbar-nav .active a {
+  &:hover, &:active {
+    color:black;
+  }
+
 }
 

@@ -43,6 +43,10 @@ module.exports = {
       {
         test: /\.jpg$/,
         loader: 'file-loader'
+      },
+      {
+        test: /\.png$/,
+        loader: 'file-loader'
       }
     ],
 

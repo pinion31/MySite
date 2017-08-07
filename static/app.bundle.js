@@ -109,7 +109,7 @@ var NavBarHead = function NavBarHead() {
         { to: '/' },
         _react2.default.createElement(
           _reactBootstrap.NavItem,
-          null,
+          { className: 'tabs' },
           'Home'
         )
       ),
@@ -118,7 +118,7 @@ var NavBarHead = function NavBarHead() {
         { to: '/AboutMe' },
         _react2.default.createElement(
           _reactBootstrap.NavItem,
-          null,
+          { className: 'tabs' },
           'About Me'
         )
       ),
@@ -127,7 +127,7 @@ var NavBarHead = function NavBarHead() {
         { to: '/Blog' },
         _react2.default.createElement(
           _reactBootstrap.NavItem,
-          null,
+          { className: 'tabs' },
           'Blog'
         )
       ),
@@ -140,7 +140,7 @@ var NavBarHead = function NavBarHead() {
           _react2.default.createElement(
             'a',
             { className: 'social-buttons', href: 'https://github.com/pinion31', target: '_blank' },
-            _react2.default.createElement('em', { className: 'icon-github-circle' })
+            _react2.default.createElement('img', { className: 'other-social-icons', src: '../media/Github.png' })
           )
         )
       ),

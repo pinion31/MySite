@@ -15,24 +15,24 @@ const NoMatch = () => <h2>This page does not exist! Please go back!</h2>;
       <Navbar>
          <Nav pullRight>
           <LinkContainer to='/'>
-            <NavItem>
+            <NavItem className="tabs">
               Home
             </NavItem>
           </LinkContainer>
           <LinkContainer to='/AboutMe'>
-            <NavItem>
+            <NavItem className="tabs">
               About Me
             </NavItem>
           </LinkContainer>
           <LinkContainer to='/Blog'>
-            <NavItem>
+            <NavItem className="tabs">
               Blog
             </NavItem>
           </LinkContainer>
           <li>
               <div>
                 <a className='social-buttons' href="https://github.com/pinion31" target="_blank">
-                  <em className="icon-github-circle"></em>
+                   <img className='other-social-icons' src='../media/Github.png'/>
                 </a>
               </div>
             </li>

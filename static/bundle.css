@@ -82,13 +82,13 @@ img {
 }
 
 .name-title {
-  font-family: "Lato", sans-serif;
+  font-family: "Aldrich", sans-serif;
   text-align: center;
   font-size: 7em;
 }
 
 .job-title {
-  font-family: "Lato", sans-serif;
+  font-family: "Aldrich", sans-serif;
   text-align: center;
   font-size: 3em;
 }
@@ -111,14 +111,40 @@ img {
   border: none;
 }
 
+.navbar-default .navbar-nav .active a {
+  background: transparent;
+  color: antiquewhite;
+}
+
+.navbar-default .navbar-nav .active a:focus {
+  color: black;
+}
+
+.navbar-nav li a {
+  padding-bottom: 10px;
+}
+
+.navbar-right li a:hover,
+.navbar-right li a:focus,
+.navbar-right li a:active {
+  background: antiquewhite;
+}
+
 .navbar-default .navbar-nav li a {
   color: antiquewhite;
   font-family: "Open Sans", sans-serif;
 }
 
 .navbar-default .navbar-nav li a:hover,
-.navbar-default .navbar-nav li a:focus {
-  color: antiquewhite;
+.navbar-default .navbar-nav li a:focus,
+.navbar-default .navbar-nav li a:active {
+  color: black;
+  background: antiquewhite;
+}
+
+.navbar-default .navbar-nav .active a:hover,
+.navbar-default .navbar-nav .active a:active {
+  color: black;
 }
 
 .footer {
@@ -135,11 +161,12 @@ img {
   text-decoration: none;
 }
 
-.footer-router-links {
+.footer-router-links p {
   color: #337ab7;
+  cursor: pointer;
 }
 
-.footer-router-links:hover {
+.footer-router-links p:hover {
   color: #23527c;
 }
 
@@ -196,8 +223,20 @@ img {
   height: 35px;
   margin: 5px 0px;
   padding: 0px;
+  width: 45px;
+  height: 45px;
+  margin: 0px 0px 10px 0px;
+}
+
+.other-social-icons:hover,
+.other-social-icons:visited,
+.other-social-icons:focus,
+.other-social-icons:active {
+  background-size: contain;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
 }
 
 .social-buttons {
-  padding: 10px 0px;
+  padding: 20px 0px 10px 0px;
 }
