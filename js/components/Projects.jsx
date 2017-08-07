@@ -33,7 +33,7 @@ const Projects = () => {
             <Thumbnail>
               <Image className="site-image" src="../media/nightflight.png" alt="Nightflight" responsive/>
               <h3 className="thumbnail-title">Night Flight </h3>
-              <p className="thumbnail-text">A Full-Stack App for Nightlife Coordination</p>
+              <p className="thumbnail-text">A Full-Stack App For Nightlife Coordination</p>
               <div className="app-links">
                   <a href="https://github.com/pinion31/NightFlight" target="_blank">Github</a>
                   <a href="https://nightflight.herokuapp.com" target="_blank">App Site</a>
@@ -43,6 +43,21 @@ const Projects = () => {
                 <em className="icon-nodejs"> </em>
                 <span className="icon-express-alt">e</span>
                 <em className="icon-mongodb"> </em>
+                <em className="icon-bootstrap"> </em>
+              </div>
+            </Thumbnail>
+          </Col>
+          <Col xs={6} md={4}>
+            <Thumbnail>
+              <Image className="site-image" src="../media/gameoflife.png" alt="Game of Life" responsive/>
+              <h3 className="thumbnail-title">Game of Life </h3>
+              <p className="thumbnail-text">A Game Based On John Conway's Game Of Life</p>
+              <div className="app-links">
+                  <a href="https://github.com/pinion31/GameOfLife" target="_blank">Github</a>
+                  <a href="https://pinion31.github.io/GameOfLife" target="_blank">App Site</a>
+              </div>
+              <div className="tech-icons-life">
+                <em className="icon-react"> </em>
                 <em className="icon-bootstrap"> </em>
               </div>
             </Thumbnail>

@@ -7,3 +7,17 @@
   margin-bottom:20px;
   font-size: 2em;
 }
+
+.footer-links a {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.footer-router-links p {
+  color:$link-blue;
+  cursor: pointer;
+  &:hover {
+    color:$link-blue-hover;
+  }
+}

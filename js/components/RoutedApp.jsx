@@ -5,7 +5,6 @@ import {Route} from 'react-router';
 import {Switch} from 'react-router-dom';
 import AboutMe from './AboutMe';
 import Projects from './Projects';
-import Contact from './Contact';
 import Blog from './Blog';
 import FooterContent from './FooterContent';
 
@@ -16,56 +15,51 @@ const NoMatch = () => <h2>This page does not exist! Please go back!</h2>;
       <Navbar>
          <Nav pullRight>
           <LinkContainer to='/'>
-            <NavItem className="navbar-override">
+            <NavItem>
               Home
             </NavItem>
           </LinkContainer>
           <LinkContainer to='/AboutMe'>
-            <NavItem className="navbar-override">
+            <NavItem>
               About Me
             </NavItem>
           </LinkContainer>
           <LinkContainer to='/Blog'>
-            <NavItem className="navbar-override">
+            <NavItem>
               Blog
             </NavItem>
           </LinkContainer>
-          <LinkContainer to='/ContactMe'>
-            <NavItem className="navbar-override">
-              Contact
-            </NavItem>
-          </LinkContainer>
-            <li>
+          <li>
               <div>
-                <a className='social-buttons' href="https://www.github.com" target="_blank">
+                <a className='social-buttons' href="https://github.com/pinion31" target="_blank">
                   <em className="icon-github-circle"></em>
                 </a>
               </div>
             </li>
             <li>
               <div>
-                <a className='social-buttons' href="https://www.github.com" target="_blank">
+                <a className='social-buttons' href="https://www.linkedin.com/in/chris-cantu-9a46b9a" target="_blank">
                   <img className='other-social-icons' src='../media/Linkedin.png'/>
                 </a>
               </div>
             </li>
             <li>
               <div>
-                <a className='social-buttons' href="https://www.github.com" target="_blank">
+                <a className='social-buttons' href="https://www.facebook.com/chris.cantu.16" target="_blank">
                   <img className='other-social-icons' src='../media/Facebook.png'/>
                 </a>
               </div>
             </li>
             <li>
               <div>
-                <a className='social-buttons' href="https://www.github.com" target="_blank">
+                <a className='social-buttons' href="https://twitter.com/IntheLight81" target="_blank">
                   <img className='other-social-icons' src='../media/Twitter.png'/>
                 </a>
               </div>
             </li>
             <li>
               <div>
-                <a className='social-buttons' href="https://www.github.com" target="_blank">
+                <a className='social-buttons' href="https://www.reddit.com/user/Daliblue" target="_blank">
                   <img className='other-social-icons' src='../media/Reddit.png'/>
                 </a>
               </div>
@@ -94,7 +88,6 @@ const MainContent = () => {
           <Route exact path="/" component={Intro} />
           <Route path="/AboutMe" component={AboutMe} />
           <Route path="/Blog" component={Blog} />
-          <Route path="/Contact" component={Contact} />
           <Route path="*" component={NoMatch} />
         </Switch>
       </main>

@@ -10,7 +10,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(227);
+__webpack_require__(228);
 
 var _reactDom = __webpack_require__(31);
 
@@ -59,7 +59,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactBootstrap = __webpack_require__(134);
 
-var _reactRouterBootstrap = __webpack_require__(332);
+var _reactRouterBootstrap = __webpack_require__(220);
 
 var _reactRouter = __webpack_require__(32);
 
@@ -73,15 +73,11 @@ var _Projects = __webpack_require__(785);
 
 var _Projects2 = _interopRequireDefault(_Projects);
 
-var _Contact = __webpack_require__(786);
-
-var _Contact2 = _interopRequireDefault(_Contact);
-
-var _Blog = __webpack_require__(787);
+var _Blog = __webpack_require__(786);
 
 var _Blog2 = _interopRequireDefault(_Blog);
 
-var _FooterContent = __webpack_require__(788);
+var _FooterContent = __webpack_require__(787);
 
 var _FooterContent2 = _interopRequireDefault(_FooterContent);
 
@@ -113,7 +109,7 @@ var NavBarHead = function NavBarHead() {
         { to: '/' },
         _react2.default.createElement(
           _reactBootstrap.NavItem,
-          { className: 'navbar-override' },
+          null,
           'Home'
         )
       ),
@@ -122,7 +118,7 @@ var NavBarHead = function NavBarHead() {
         { to: '/AboutMe' },
         _react2.default.createElement(
           _reactBootstrap.NavItem,
-          { className: 'navbar-override' },
+          null,
           'About Me'
         )
       ),
@@ -131,17 +127,8 @@ var NavBarHead = function NavBarHead() {
         { to: '/Blog' },
         _react2.default.createElement(
           _reactBootstrap.NavItem,
-          { className: 'navbar-override' },
+          null,
           'Blog'
-        )
-      ),
-      _react2.default.createElement(
-        _reactRouterBootstrap.LinkContainer,
-        { to: '/ContactMe' },
-        _react2.default.createElement(
-          _reactBootstrap.NavItem,
-          { className: 'navbar-override' },
-          'Contact'
         )
       ),
       _react2.default.createElement(
@@ -152,7 +139,7 @@ var NavBarHead = function NavBarHead() {
           null,
           _react2.default.createElement(
             'a',
-            { className: 'social-buttons', href: 'https://www.github.com', target: '_blank' },
+            { className: 'social-buttons', href: 'https://github.com/pinion31', target: '_blank' },
             _react2.default.createElement('em', { className: 'icon-github-circle' })
           )
         )
@@ -165,7 +152,7 @@ var NavBarHead = function NavBarHead() {
           null,
           _react2.default.createElement(
             'a',
-            { className: 'social-buttons', href: 'https://www.github.com', target: '_blank' },
+            { className: 'social-buttons', href: 'https://www.linkedin.com/in/chris-cantu-9a46b9a', target: '_blank' },
             _react2.default.createElement('img', { className: 'other-social-icons', src: '../media/Linkedin.png' })
           )
         )
@@ -178,7 +165,7 @@ var NavBarHead = function NavBarHead() {
           null,
           _react2.default.createElement(
             'a',
-            { className: 'social-buttons', href: 'https://www.github.com', target: '_blank' },
+            { className: 'social-buttons', href: 'https://www.facebook.com/chris.cantu.16', target: '_blank' },
             _react2.default.createElement('img', { className: 'other-social-icons', src: '../media/Facebook.png' })
           )
         )
@@ -191,7 +178,7 @@ var NavBarHead = function NavBarHead() {
           null,
           _react2.default.createElement(
             'a',
-            { className: 'social-buttons', href: 'https://www.github.com', target: '_blank' },
+            { className: 'social-buttons', href: 'https://twitter.com/IntheLight81', target: '_blank' },
             _react2.default.createElement('img', { className: 'other-social-icons', src: '../media/Twitter.png' })
           )
         )
@@ -204,7 +191,7 @@ var NavBarHead = function NavBarHead() {
           null,
           _react2.default.createElement(
             'a',
-            { className: 'social-buttons', href: 'https://www.github.com', target: '_blank' },
+            { className: 'social-buttons', href: 'https://www.reddit.com/user/Daliblue', target: '_blank' },
             _react2.default.createElement('img', { className: 'other-social-icons', src: '../media/Reddit.png' })
           )
         )
@@ -245,7 +232,6 @@ var MainContent = function MainContent() {
       _react2.default.createElement(_reactRouter.Route, { exact: true, path: '/', component: Intro }),
       _react2.default.createElement(_reactRouter.Route, { path: '/AboutMe', component: _AboutMe2.default }),
       _react2.default.createElement(_reactRouter.Route, { path: '/Blog', component: _Blog2.default }),
-      _react2.default.createElement(_reactRouter.Route, { path: '/Contact', component: _Contact2.default }),
       _react2.default.createElement(_reactRouter.Route, { path: '*', component: NoMatch })
     )
   );
@@ -435,7 +421,7 @@ var Projects = function Projects() {
             _react2.default.createElement(
               'p',
               { className: 'thumbnail-text' },
-              'A Full-Stack App for Nightlife Coordination'
+              'A Full-Stack App For Nightlife Coordination'
             ),
             _react2.default.createElement(
               'div',
@@ -472,6 +458,53 @@ var Projects = function Projects() {
               _react2.default.createElement(
                 'em',
                 { className: 'icon-mongodb' },
+                ' '
+              ),
+              _react2.default.createElement(
+                'em',
+                { className: 'icon-bootstrap' },
+                ' '
+              )
+            )
+          )
+        ),
+        _react2.default.createElement(
+          _reactBootstrap.Col,
+          { xs: 6, md: 4 },
+          _react2.default.createElement(
+            _reactBootstrap.Thumbnail,
+            null,
+            _react2.default.createElement(_reactBootstrap.Image, { className: 'site-image', src: '../media/gameoflife.png', alt: 'Game of Life', responsive: true }),
+            _react2.default.createElement(
+              'h3',
+              { className: 'thumbnail-title' },
+              'Game of Life '
+            ),
+            _react2.default.createElement(
+              'p',
+              { className: 'thumbnail-text' },
+              'A Game Based On John Conway\'s Game Of Life'
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'app-links' },
+              _react2.default.createElement(
+                'a',
+                { href: 'https://github.com/pinion31/GameOfLife', target: '_blank' },
+                'Github'
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: 'https://pinion31.github.io/GameOfLife', target: '_blank' },
+                'App Site'
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'tech-icons-life' },
+              _react2.default.createElement(
+                'em',
+                { className: 'icon-react' },
                 ' '
               ),
               _react2.default.createElement(
@@ -583,11 +616,11 @@ var _react2 = _interopRequireDefault(_react);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Contact = function Contact() {
+var Blog = function Blog() {
   return _react2.default.createElement('div', null);
 };
 
-exports.default = Contact;
+exports.default = Blog;
 
 /***/ }),
 
@@ -605,31 +638,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var Blog = function Blog() {
-  return _react2.default.createElement('div', null);
-};
-
-exports.default = Blog;
-
-/***/ }),
-
-/***/ 788:
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
 var _reactBootstrap = __webpack_require__(134);
+
+var _reactRouterBootstrap = __webpack_require__(220);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -662,26 +673,41 @@ var FooterContent = function FooterContent() {
         { xs: 4, xsOffset: 1, md: 2, mdOffset: 1 },
         _react2.default.createElement(
           'div',
-          null,
+          { className: 'footer-router-links' },
           _react2.default.createElement(
-            'p',
-            null,
-            'Home'
-          ),
+            _reactRouterBootstrap.LinkContainer,
+            { to: '/' },
+            _react2.default.createElement(
+              'p',
+              null,
+              'Home'
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'footer-router-links' },
           _react2.default.createElement(
-            'p',
-            null,
-            'About Me'
-          ),
+            _reactRouterBootstrap.LinkContainer,
+            { to: '/AboutMe' },
+            _react2.default.createElement(
+              'p',
+              null,
+              'About Me'
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'footer-router-links' },
           _react2.default.createElement(
-            'p',
-            null,
-            'Blog'
-          ),
-          _react2.default.createElement(
-            'p',
-            null,
-            'Contact'
+            _reactRouterBootstrap.LinkContainer,
+            { to: '/Blog' },
+            _react2.default.createElement(
+              'p',
+              null,
+              'Blog'
+            )
           )
         )
       ),
@@ -690,26 +716,51 @@ var FooterContent = function FooterContent() {
         { xs: 4, md: 2 },
         _react2.default.createElement(
           'div',
-          null,
+          { className: 'footer-links' },
           _react2.default.createElement(
-            'p',
-            null,
-            'GitHub'
+            'a',
+            { href: 'https://github.com/pinion31', target: '_blank' },
+            _react2.default.createElement(
+              'p',
+              null,
+              'GitHub'
+            )
           ),
           _react2.default.createElement(
-            'p',
-            null,
-            'Twitter'
+            'a',
+            { href: 'https://www.linkedin.com/in/chris-cantu-9a46b9a', target: '_blank' },
+            _react2.default.createElement(
+              'p',
+              null,
+              'LinkedIn'
+            )
           ),
           _react2.default.createElement(
-            'p',
-            null,
-            'Facebook'
+            'a',
+            { href: 'https://twitter.com/IntheLight81', target: '_blank' },
+            _react2.default.createElement(
+              'p',
+              null,
+              'Twitter'
+            )
           ),
           _react2.default.createElement(
-            'p',
-            null,
-            'Reddit'
+            'a',
+            { href: 'https://www.facebook.com/chris.cantu.16', target: '_blank' },
+            _react2.default.createElement(
+              'p',
+              null,
+              'Facebook'
+            )
+          ),
+          _react2.default.createElement(
+            'a',
+            { href: 'https://www.reddit.com/user/Daliblue', target: '_blank' },
+            _react2.default.createElement(
+              'p',
+              null,
+              'Reddit'
+            )
           )
         )
       )
