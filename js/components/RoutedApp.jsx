@@ -16,50 +16,60 @@ const NoMatch = () => <h2>This page does not exist! Please go back!</h2>;
       <Navbar>
          <Nav pullRight>
           <LinkContainer to='/'>
-            <NavItem>
+            <NavItem className="navbar-override">
               Home
             </NavItem>
           </LinkContainer>
           <LinkContainer to='/AboutMe'>
-            <NavItem>
+            <NavItem className="navbar-override">
               About Me
             </NavItem>
           </LinkContainer>
           <LinkContainer to='/Blog'>
-            <NavItem>
+            <NavItem className="navbar-override">
               Blog
             </NavItem>
           </LinkContainer>
           <LinkContainer to='/ContactMe'>
-            <NavItem>
+            <NavItem className="navbar-override">
               Contact
             </NavItem>
           </LinkContainer>
-           <LinkContainer to='/GitHub'>
-            <NavItem>
-              <em className="icon-github-circle"></em>
-            </NavItem>
-          </LinkContainer>
-          <LinkContainer to='/GitHub'>
-            <NavItem>
-              <img className='other-social-icons' src='../media/Linkedin.png'/>
-            </NavItem>
-          </LinkContainer>
-          <LinkContainer to='/GitHub'>
-            <NavItem>
-              <img className='other-social-icons' src='../media/Facebook.png'/>
-            </NavItem>
-          </LinkContainer>
-          <LinkContainer to='/GitHub'>
-            <NavItem>
-              <img className='other-social-icons' src='../media/Twitter.png'/>
-            </NavItem>
-          </LinkContainer>
-          <LinkContainer to='/GitHub'>
-            <NavItem>
-              <img className='other-social-icons' src='../media/Reddit.png'/>
-            </NavItem>
-          </LinkContainer>
+            <li>
+              <div>
+                <a className='social-buttons' href="https://www.github.com" target="_blank">
+                  <em className="icon-github-circle"></em>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div>
+                <a className='social-buttons' href="https://www.github.com" target="_blank">
+                  <img className='other-social-icons' src='../media/Linkedin.png'/>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div>
+                <a className='social-buttons' href="https://www.github.com" target="_blank">
+                  <img className='other-social-icons' src='../media/Facebook.png'/>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div>
+                <a className='social-buttons' href="https://www.github.com" target="_blank">
+                  <img className='other-social-icons' src='../media/Twitter.png'/>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div>
+                <a className='social-buttons' href="https://www.github.com" target="_blank">
+                  <img className='other-social-icons' src='../media/Reddit.png'/>
+                </a>
+              </div>
+            </li>
           </Nav>
        </Navbar>
     );

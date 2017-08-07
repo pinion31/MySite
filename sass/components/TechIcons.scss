@@ -1,4 +1,5 @@
 .tech-icons {
+  width: 100%;
   margin-left: 18%;
   font-size: 3em;
 }
@@ -31,9 +32,26 @@
 .icon-github-circle {
   color:white;
   font-size: 2em;
+  margin: 0px 10px;
 }
 
 .other-social-icons {
-  width:75%;
-  height: 75%;
+  width:35px;
+  height:35px;
+  margin:5px 0px;
+  padding:0px;
 }
+
+.nav li a {
+  //padding:0px;
+}
+
+.navbar-override {
+ //padding-top:15px;
+}
+
+.social-buttons {
+  padding:10px 0px;
+}
+
+//10px 15px

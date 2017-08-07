@@ -113,7 +113,7 @@ var NavBarHead = function NavBarHead() {
         { to: '/' },
         _react2.default.createElement(
           _reactBootstrap.NavItem,
-          null,
+          { className: 'navbar-override' },
           'Home'
         )
       ),
@@ -122,7 +122,7 @@ var NavBarHead = function NavBarHead() {
         { to: '/AboutMe' },
         _react2.default.createElement(
           _reactBootstrap.NavItem,
-          null,
+          { className: 'navbar-override' },
           'About Me'
         )
       ),
@@ -131,7 +131,7 @@ var NavBarHead = function NavBarHead() {
         { to: '/Blog' },
         _react2.default.createElement(
           _reactBootstrap.NavItem,
-          null,
+          { className: 'navbar-override' },
           'Blog'
         )
       ),
@@ -140,53 +140,73 @@ var NavBarHead = function NavBarHead() {
         { to: '/ContactMe' },
         _react2.default.createElement(
           _reactBootstrap.NavItem,
-          null,
+          { className: 'navbar-override' },
           'Contact'
         )
       ),
       _react2.default.createElement(
-        _reactRouterBootstrap.LinkContainer,
-        { to: '/GitHub' },
+        'li',
+        null,
         _react2.default.createElement(
-          _reactBootstrap.NavItem,
+          'div',
           null,
-          _react2.default.createElement('em', { className: 'icon-github-circle' })
+          _react2.default.createElement(
+            'a',
+            { className: 'social-buttons', href: 'https://www.github.com', target: '_blank' },
+            _react2.default.createElement('em', { className: 'icon-github-circle' })
+          )
         )
       ),
       _react2.default.createElement(
-        _reactRouterBootstrap.LinkContainer,
-        { to: '/GitHub' },
+        'li',
+        null,
         _react2.default.createElement(
-          _reactBootstrap.NavItem,
+          'div',
           null,
-          _react2.default.createElement('img', { className: 'other-social-icons', src: '../media/Linkedin.png' })
+          _react2.default.createElement(
+            'a',
+            { className: 'social-buttons', href: 'https://www.github.com', target: '_blank' },
+            _react2.default.createElement('img', { className: 'other-social-icons', src: '../media/Linkedin.png' })
+          )
         )
       ),
       _react2.default.createElement(
-        _reactRouterBootstrap.LinkContainer,
-        { to: '/GitHub' },
+        'li',
+        null,
         _react2.default.createElement(
-          _reactBootstrap.NavItem,
+          'div',
           null,
-          _react2.default.createElement('img', { className: 'other-social-icons', src: '../media/Facebook.png' })
+          _react2.default.createElement(
+            'a',
+            { className: 'social-buttons', href: 'https://www.github.com', target: '_blank' },
+            _react2.default.createElement('img', { className: 'other-social-icons', src: '../media/Facebook.png' })
+          )
         )
       ),
       _react2.default.createElement(
-        _reactRouterBootstrap.LinkContainer,
-        { to: '/GitHub' },
+        'li',
+        null,
         _react2.default.createElement(
-          _reactBootstrap.NavItem,
+          'div',
           null,
-          _react2.default.createElement('img', { className: 'other-social-icons', src: '../media/Twitter.png' })
+          _react2.default.createElement(
+            'a',
+            { className: 'social-buttons', href: 'https://www.github.com', target: '_blank' },
+            _react2.default.createElement('img', { className: 'other-social-icons', src: '../media/Twitter.png' })
+          )
         )
       ),
       _react2.default.createElement(
-        _reactRouterBootstrap.LinkContainer,
-        { to: '/GitHub' },
+        'li',
+        null,
         _react2.default.createElement(
-          _reactBootstrap.NavItem,
+          'div',
           null,
-          _react2.default.createElement('img', { className: 'other-social-icons', src: '../media/Reddit.png' })
+          _react2.default.createElement(
+            'a',
+            { className: 'social-buttons', href: 'https://www.github.com', target: '_blank' },
+            _react2.default.createElement('img', { className: 'other-social-icons', src: '../media/Reddit.png' })
+          )
         )
       )
     )
