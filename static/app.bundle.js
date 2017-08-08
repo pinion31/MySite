@@ -16,7 +16,7 @@ var _reactDom = __webpack_require__(31);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _reactRouterDom = __webpack_require__(133);
+var _reactRouterDom = __webpack_require__(134);
 
 __webpack_require__(644);
 
@@ -57,13 +57,13 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactBootstrap = __webpack_require__(134);
+var _reactBootstrap = __webpack_require__(106);
 
 var _reactRouterBootstrap = __webpack_require__(220);
 
 var _reactRouter = __webpack_require__(32);
 
-var _reactRouterDom = __webpack_require__(133);
+var _reactRouterDom = __webpack_require__(134);
 
 var _AboutMe = __webpack_require__(784);
 
@@ -209,12 +209,12 @@ var Intro = function Intro() {
       { className: 'intro' },
       _react2.default.createElement(
         'h1',
-        { className: 'name-title' },
+        { className: 'name-title quickFade' },
         'Chris Cantu'
       ),
       _react2.default.createElement(
         'h1',
-        { className: 'job-title' },
+        { className: 'job-title quickFade' },
         'Web Developer'
       )
     ),
@@ -289,13 +289,452 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _reactBootstrap = __webpack_require__(106);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var AboutMe = function AboutMe() {
   return _react2.default.createElement(
-    'h1',
+    'div',
     null,
-    'About Me '
+    _react2.default.createElement(
+      'div',
+      { className: 'resumeBody' },
+      _react2.default.createElement(
+        'div',
+        { id: 'top' },
+        _react2.default.createElement(
+          'div',
+          { id: 'cv', className: 'instaFade' },
+          _react2.default.createElement(
+            _reactBootstrap.Button,
+            { className: 'downloadResume', bsStyle: 'primary', href: '../media/ChrisCantuResume.pdf' },
+            'Download Resume'
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'mainDetails' },
+            _react2.default.createElement(
+              'div',
+              { id: 'name' },
+              _react2.default.createElement(
+                'h1',
+                { className: 'quickFade delayTwo' },
+                'Chris Cantu'
+              ),
+              _react2.default.createElement(
+                'h2',
+                { className: 'quickFade delayThree' },
+                'Web Developer'
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { id: 'contactDetails', className: 'quickFade delayFour' },
+              _react2.default.createElement(
+                'ul',
+                null,
+                _react2.default.createElement(
+                  'li',
+                  null,
+                  'e: ',
+                  _react2.default.createElement(
+                    'a',
+                    { href: 'mailto:pinion31@gmail.com', target: '_blank' },
+                    'pinion31@gmail.com'
+                  )
+                ),
+                _react2.default.createElement(
+                  'li',
+                  null,
+                  'w: ',
+                  _react2.default.createElement(
+                    'a',
+                    { href: 'http://www.onechriscantu.com' },
+                    'www.onechriscantu.com'
+                  )
+                ),
+                _react2.default.createElement(
+                  'li',
+                  null,
+                  'm: 512-922-5824'
+                )
+              )
+            ),
+            _react2.default.createElement('div', { className: 'clear' })
+          ),
+          _react2.default.createElement(
+            'div',
+            { id: 'mainArea', className: 'quickFade delayFive' },
+            _react2.default.createElement(
+              'section',
+              null,
+              _react2.default.createElement(
+                'article',
+                null,
+                _react2.default.createElement(
+                  'div',
+                  { className: 'sectionTitle' },
+                  _react2.default.createElement(
+                    'h1',
+                    null,
+                    'Personal Profile'
+                  )
+                ),
+                _react2.default.createElement(
+                  'div',
+                  { className: 'sectionContent' },
+                  _react2.default.createElement(
+                    'p',
+                    null,
+                    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor metus, interdum at scelerisque in, porta at lacus. Maecenas dapibus luctus cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.'
+                  )
+                )
+              ),
+              _react2.default.createElement('div', { className: 'clear' })
+            ),
+            _react2.default.createElement(
+              'section',
+              null,
+              _react2.default.createElement(
+                'div',
+                { className: 'sectionTitle' },
+                _react2.default.createElement(
+                  'h1',
+                  null,
+                  'Skills/Tools'
+                )
+              ),
+              _react2.default.createElement(
+                'div',
+                { className: 'sectionContent' },
+                _react2.default.createElement(
+                  'ul',
+                  { className: 'keySkills' },
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    'Javascript(ES6)'
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    'HTML'
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    'CSS'
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    'JQuery'
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    'React/Redux'
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    'React-Bootstrap'
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    'Flexbox'
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    'NodeJS'
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    'Express'
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    'MongoDB'
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    'Git/Github'
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    'Webpack'
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    'Gulp'
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    'Sass'
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    'D3'
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    'Python'
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    'C#'
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    'Unity3D'
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    'Unityscript'
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    '3D Studio Max'
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    'Adobe Photoshop'
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    'Adobe Premiere'
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    'Adobe AfterEffects'
+                  )
+                )
+              ),
+              _react2.default.createElement('div', { className: 'clear' })
+            ),
+            _react2.default.createElement(
+              'section',
+              null,
+              _react2.default.createElement(
+                'div',
+                { className: 'sectionTitle' },
+                _react2.default.createElement(
+                  'h1',
+                  null,
+                  'Work Experience'
+                )
+              ),
+              _react2.default.createElement(
+                'div',
+                { className: 'sectionContent' },
+                _react2.default.createElement(
+                  'article',
+                  null,
+                  _react2.default.createElement(
+                    'h2',
+                    null,
+                    _react2.default.createElement(
+                      'b',
+                      null,
+                      'Texas State Low Cost Insurance'
+                    ),
+                    ' - Senior Underwriter'
+                  ),
+                  _react2.default.createElement(
+                    'p',
+                    { className: 'subDetails' },
+                    'Oct 2012 - June 2017'
+                  ),
+                  _react2.default.createElement(
+                    'ul',
+                    null,
+                    _react2.default.createElement(
+                      'li',
+                      null,
+                      'Trained and guided new underwriters'
+                    ),
+                    _react2.default.createElement(
+                      'li',
+                      null,
+                      'Provided technical and retail support to agents in field'
+                    ),
+                    _react2.default.createElement(
+                      'li',
+                      null,
+                      'Developed new guidelines and workflows for underwriting department'
+                    ),
+                    _react2.default.createElement(
+                      'li',
+                      null,
+                      'Assisted customer with policy changes and billing support'
+                    )
+                  )
+                ),
+                _react2.default.createElement(
+                  'article',
+                  null,
+                  _react2.default.createElement(
+                    'h2',
+                    null,
+                    _react2.default.createElement(
+                      'b',
+                      null,
+                      'Escape Hatch Entertainment,LLC'
+                    ),
+                    ' - Game Artist'
+                  ),
+                  _react2.default.createElement(
+                    'p',
+                    { className: 'subDetails' },
+                    'March 2010 - Sept 2011'
+                  ),
+                  _react2.default.createElement(
+                    'ul',
+                    null,
+                    _react2.default.createElement(
+                      'li',
+                      null,
+                      'Created in-game environments and assets under deadline'
+                    ),
+                    _react2.default.createElement(
+                      'li',
+                      null,
+                      'Conceptualized, modeled and textured character models'
+                    ),
+                    _react2.default.createElement(
+                      'li',
+                      null,
+                      'Tested player experience'
+                    )
+                  )
+                ),
+                _react2.default.createElement(
+                  'article',
+                  null,
+                  _react2.default.createElement(
+                    'h2',
+                    null,
+                    _react2.default.createElement(
+                      'b',
+                      null,
+                      'CBS 42 NEWS'
+                    ),
+                    ' - Video Editor'
+                  ),
+                  _react2.default.createElement(
+                    'p',
+                    { className: 'subDetails' },
+                    'August 2004 - Jan 2009'
+                  ),
+                  _react2.default.createElement(
+                    'ul',
+                    null,
+                    _react2.default.createElement(
+                      'li',
+                      null,
+                      'Developed new digital editing workflow  in transition from analog'
+                    ),
+                    _react2.default.createElement(
+                      'li',
+                      null,
+                      'Collaborated with producers and reporters in a fast-paced environment to create content for evening news'
+                    ),
+                    _react2.default.createElement(
+                      'li',
+                      null,
+                      'Introduced and trained new editors'
+                    )
+                  )
+                )
+              ),
+              _react2.default.createElement('div', { className: 'clear' })
+            ),
+            _react2.default.createElement(
+              'section',
+              null,
+              _react2.default.createElement(
+                'div',
+                { className: 'sectionTitle' },
+                _react2.default.createElement(
+                  'h1',
+                  null,
+                  'Education'
+                )
+              ),
+              _react2.default.createElement(
+                'div',
+                { className: 'sectionContent' },
+                _react2.default.createElement(
+                  'article',
+                  null,
+                  _react2.default.createElement(
+                    'h2',
+                    null,
+                    _react2.default.createElement(
+                      'b',
+                      null,
+                      'University of Texas'
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'p',
+                    { className: 'subDetails' },
+                    'Sept 2000 - May 2004'
+                  ),
+                  _react2.default.createElement(
+                    'p',
+                    null,
+                    'Radio-Television-Film'
+                  )
+                ),
+                _react2.default.createElement(
+                  'article',
+                  null,
+                  _react2.default.createElement(
+                    'h2',
+                    null,
+                    _react2.default.createElement(
+                      'b',
+                      null,
+                      'Austin Community College'
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'p',
+                    { className: 'subDetails' },
+                    'Jan 2009 - Dec 2010'
+                  ),
+                  _react2.default.createElement(
+                    'p',
+                    null,
+                    'Game Development'
+                  )
+                )
+              ),
+              _react2.default.createElement('div', { className: 'clear' })
+            )
+          )
+        )
+      )
+    )
   );
 };
 
@@ -317,14 +756,14 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactBootstrap = __webpack_require__(134);
+var _reactBootstrap = __webpack_require__(106);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Projects = function Projects() {
   return _react2.default.createElement(
     'div',
-    null,
+    { className: 'quickFade' },
     _react2.default.createElement(
       _reactBootstrap.Grid,
       null,
@@ -638,7 +1077,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactBootstrap = __webpack_require__(134);
+var _reactBootstrap = __webpack_require__(106);
 
 var _reactRouterBootstrap = __webpack_require__(220);
 

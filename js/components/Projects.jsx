@@ -3,7 +3,7 @@ import {Grid, Row, Col, Thumbnail, Image} from 'react-bootstrap';
 
 const Projects = () => {
   return (
-    <div>
+    <div className="quickFade">
       <Grid>
       <Row>
       <Col xs={6} md={4} className="link-box thumb-box">

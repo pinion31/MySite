@@ -73,8 +73,8 @@ const NoMatch = () => <h2>This page does not exist! Please go back!</h2>;
   return (
     <div>
       <div className='intro'>
-         <h1 className='name-title'>Chris Cantu</h1>
-         <h1 className='job-title'>Web Developer</h1>
+         <h1 className='name-title quickFade'>Chris Cantu</h1>
+         <h1 className='job-title quickFade'>Web Developer</h1>
       </div>
       <Projects />
     </div>
