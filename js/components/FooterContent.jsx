@@ -1,8 +1,9 @@
 import React from 'react';
-import {Grid, Row, Col, Thumbnail} from 'react-bootstrap';
+import {Row, Col} from 'react-bootstrap';
 import {LinkContainer} from 'react-router-bootstrap';
 
 const FooterContent = () =>
+  (
     <div className="footer">
       <Row>
         <Col xs={8} xsOffset={1} md={4} mdOffset={1}>
@@ -29,26 +30,27 @@ const FooterContent = () =>
             </LinkContainer>
           </div>
         </Col>
-         <Col xs={4} md={2} >
+        <Col xs={4} md={2} >
           <div className="footer-links" >
-            <a href="https://github.com/pinion31" target="_blank">
+            <a href="https://github.com/pinion31" target="_blank" rel="noopener noreferrer">
               <p>GitHub</p>
             </a>
-            <a href="https://www.linkedin.com/in/chris-cantu-9a46b9a" target="_blank">
+            <a href="https://www.linkedin.com/in/chris-cantu-9a46b9a" target="_blank" rel="noopener noreferrer">
               <p>LinkedIn</p>
             </a>
-            <a href="https://twitter.com/IntheLight81" target="_blank">
+            <a href="https://twitter.com/IntheLight81" target="_blank" rel="noopener noreferrer">
               <p>Twitter</p>
             </a>
-            <a href="https://www.facebook.com/chris.cantu.16" target="_blank">
+            <a href="https://www.facebook.com/chris.cantu.16" target="_blank" rel="noopener noreferrer">
               <p>Facebook</p>
             </a>
-            <a href="https://www.reddit.com/user/Daliblue" target="_blank">
+            <a href="https://www.reddit.com/user/Daliblue" target="_blank" rel="noopener noreferrer">
               <p>Reddit</p>
             </a>
           </div>
         </Col>
       </Row>
     </div>
+  );
 
 export default FooterContent;

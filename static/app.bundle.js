@@ -387,8 +387,9 @@ var AboutMe = function AboutMe() {
                   _react2.default.createElement(
                     'p',
                     null,
-                    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor metus, interdum at scelerisque in, porta at lacus. Maecenas dapibus luctus cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.'
-                  )
+                    'Web development is the perfect union of my passions - Technology and Art - and, as an aspiring web developer, I hope to channel my passions towards creating elegant, responsive and effective websites.'
+                  ),
+                  ' '
                 )
               ),
               _react2.default.createElement('div', { className: 'clear' })
@@ -650,7 +651,7 @@ var AboutMe = function AboutMe() {
                     _react2.default.createElement(
                       'li',
                       null,
-                      'Developed new digital editing workflow  in transition from analog'
+                      'Developed new digital editing workflow in transition from analog'
                     ),
                     _react2.default.createElement(
                       'li',
@@ -702,30 +703,22 @@ var AboutMe = function AboutMe() {
                   _react2.default.createElement(
                     'p',
                     null,
-                    'Radio-Television-Film'
-                  )
-                ),
-                _react2.default.createElement(
-                  'article',
-                  null,
+                    _react2.default.createElement(
+                      'b',
+                      null,
+                      'Radio-Television-Film'
+                    ),
+                    '(Major)'
+                  ),
                   _react2.default.createElement(
-                    'h2',
+                    'p',
                     null,
                     _react2.default.createElement(
                       'b',
                       null,
-                      'Austin Community College'
-                    )
-                  ),
-                  _react2.default.createElement(
-                    'p',
-                    { className: 'subDetails' },
-                    'Jan 2009 - Dec 2010'
-                  ),
-                  _react2.default.createElement(
-                    'p',
-                    null,
-                    'Game Development'
+                      'Concentration in Computer Science'
+                    ),
+                    ' (Unofficial Minor)'
                   )
                 )
               ),
@@ -789,7 +782,12 @@ var Projects = function Projects() {
           _react2.default.createElement(
             _reactBootstrap.Thumbnail,
             null,
-            _react2.default.createElement(_reactBootstrap.Image, { className: 'site-image', src: '../media/voterific.png', alt: 'Voterific', responsive: true }),
+            _react2.default.createElement(
+              'a',
+              { href: 'https://voterific.herokuapp.com', target: '_blank' },
+              _react2.default.createElement(_reactBootstrap.Image, { className: 'site-image', src: '../media/voterific.png', alt: 'Voterific',
+                responsive: true })
+            ),
             _react2.default.createElement(
               'h3',
               { className: 'thumbnail-title' },
@@ -851,7 +849,12 @@ var Projects = function Projects() {
           _react2.default.createElement(
             _reactBootstrap.Thumbnail,
             null,
-            _react2.default.createElement(_reactBootstrap.Image, { className: 'site-image', src: '../media/nightflight.png', alt: 'Nightflight', responsive: true }),
+            _react2.default.createElement(
+              'a',
+              { href: 'https://nightflight.herokuapp.com', target: '_blank' },
+              _react2.default.createElement(_reactBootstrap.Image, { className: 'site-image', src: '../media/nightflight.png', alt: 'Nightflight',
+                responsive: true })
+            ),
             _react2.default.createElement(
               'h3',
               { className: 'thumbnail-title' },
@@ -913,7 +916,12 @@ var Projects = function Projects() {
           _react2.default.createElement(
             _reactBootstrap.Thumbnail,
             null,
-            _react2.default.createElement(_reactBootstrap.Image, { className: 'site-image', src: '../media/gameoflife.png', alt: 'Game of Life', responsive: true }),
+            _react2.default.createElement(
+              'a',
+              { href: 'https://pinion31.github.io/GameOfLife', target: '_blank' },
+              _react2.default.createElement(_reactBootstrap.Image, { className: 'site-image', src: '../media/gameoflife.png', alt: 'Game of Life',
+                responsive: true })
+            ),
             _react2.default.createElement(
               'h3',
               { className: 'thumbnail-title' },
