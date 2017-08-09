@@ -4,7 +4,7 @@ import {LinkContainer} from 'react-router-bootstrap';
 
 const FooterContent = () =>
   (
-    <div className="footer">
+    <div className="footer-body">
       <Row>
         <Col xs={8} xsOffset={1} md={4} mdOffset={1}>
           <div>

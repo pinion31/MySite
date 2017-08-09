@@ -57,7 +57,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactBootstrap = __webpack_require__(106);
+var _reactBootstrap = __webpack_require__(91);
 
 var _reactRouterBootstrap = __webpack_require__(220);
 
@@ -139,8 +139,13 @@ var NavBarHead = function NavBarHead() {
           null,
           _react2.default.createElement(
             'a',
-            { className: 'social-buttons', href: 'https://github.com/pinion31', target: '_blank' },
-            _react2.default.createElement('img', { className: 'other-social-icons', src: '../media/Github.png' })
+            {
+              className: 'social-buttons',
+              href: 'https://github.com/pinion31',
+              target: '_blank',
+              rel: 'noopener noreferrer'
+            },
+            _react2.default.createElement('img', { className: 'other-social-icons', src: '../media/Github.png', alt: 'Github' })
           )
         )
       ),
@@ -152,8 +157,13 @@ var NavBarHead = function NavBarHead() {
           null,
           _react2.default.createElement(
             'a',
-            { className: 'social-buttons', href: 'https://www.linkedin.com/in/chris-cantu-9a46b9a', target: '_blank' },
-            _react2.default.createElement('img', { className: 'other-social-icons', src: '../media/Linkedin.png' })
+            {
+              className: 'social-buttons',
+              href: 'https://www.linkedin.com/in/chris-cantu-9a46b9a',
+              target: '_blank',
+              rel: 'noopener noreferrer'
+            },
+            _react2.default.createElement('img', { className: 'other-social-icons', src: '../media/Linkedin.png', alt: 'Linkedin' })
           )
         )
       ),
@@ -165,8 +175,13 @@ var NavBarHead = function NavBarHead() {
           null,
           _react2.default.createElement(
             'a',
-            { className: 'social-buttons', href: 'https://www.facebook.com/chris.cantu.16', target: '_blank' },
-            _react2.default.createElement('img', { className: 'other-social-icons', src: '../media/Facebook.png' })
+            {
+              className: 'social-buttons',
+              href: 'https://www.facebook.com/chris.cantu.16',
+              target: '_blank',
+              rel: 'noopener noreferrer'
+            },
+            _react2.default.createElement('img', { className: 'other-social-icons', src: '../media/Facebook.png', alt: 'Facebook' })
           )
         )
       ),
@@ -178,8 +193,13 @@ var NavBarHead = function NavBarHead() {
           null,
           _react2.default.createElement(
             'a',
-            { className: 'social-buttons', href: 'https://twitter.com/IntheLight81', target: '_blank' },
-            _react2.default.createElement('img', { className: 'other-social-icons', src: '../media/Twitter.png' })
+            {
+              className: 'social-buttons',
+              href: 'https://twitter.com/IntheLight81',
+              target: '_blank',
+              rel: 'noopener noreferrer'
+            },
+            _react2.default.createElement('img', { className: 'other-social-icons', src: '../media/Twitter.png', alt: 'Twitter' })
           )
         )
       ),
@@ -191,8 +211,13 @@ var NavBarHead = function NavBarHead() {
           null,
           _react2.default.createElement(
             'a',
-            { className: 'social-buttons', href: 'https://www.reddit.com/user/Daliblue', target: '_blank' },
-            _react2.default.createElement('img', { className: 'other-social-icons', src: '../media/Reddit.png' })
+            {
+              className: 'social-buttons',
+              href: 'https://www.reddit.com/user/Daliblue',
+              target: '_blank',
+              rel: 'noopener noreferrer'
+            },
+            _react2.default.createElement('img', { className: 'other-social-icons', src: '../media/Reddit.png', alt: 'Reddit' })
           )
         )
       )
@@ -289,7 +314,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactBootstrap = __webpack_require__(106);
+var _reactBootstrap = __webpack_require__(91);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -340,7 +365,7 @@ var AboutMe = function AboutMe() {
                   'e: ',
                   _react2.default.createElement(
                     'a',
-                    { href: 'mailto:pinion31@gmail.com', target: '_blank' },
+                    { href: 'mailto:pinion31@gmail.com', target: '_blank', rel: 'noopener noreferrer' },
                     'pinion31@gmail.com'
                   )
                 ),
@@ -388,8 +413,7 @@ var AboutMe = function AboutMe() {
                     'p',
                     null,
                     'Web development is the perfect union of my passions - Technology and Art - and, as an aspiring web developer, I hope to channel my passions towards creating elegant, responsive and effective websites.'
-                  ),
-                  ' '
+                  )
                 )
               ),
               _react2.default.createElement('div', { className: 'clear' })
@@ -605,7 +629,7 @@ var AboutMe = function AboutMe() {
                   _react2.default.createElement(
                     'p',
                     { className: 'subDetails' },
-                    'March 2010 - Sept 2011'
+                    'July 2010 - Dec 2011'
                   ),
                   _react2.default.createElement(
                     'ul',
@@ -749,7 +773,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactBootstrap = __webpack_require__(106);
+var _reactBootstrap = __webpack_require__(91);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -784,9 +808,13 @@ var Projects = function Projects() {
             null,
             _react2.default.createElement(
               'a',
-              { href: 'https://voterific.herokuapp.com', target: '_blank' },
-              _react2.default.createElement(_reactBootstrap.Image, { className: 'site-image', src: '../media/voterific.png', alt: 'Voterific',
-                responsive: true })
+              { href: 'https://voterific.herokuapp.com', target: '_blank', rel: 'noopener noreferrer' },
+              _react2.default.createElement(_reactBootstrap.Image, {
+                className: 'site-image',
+                src: '../media/voterific.png',
+                alt: 'Voterific',
+                responsive: true
+              })
             ),
             _react2.default.createElement(
               'h3',
@@ -803,43 +831,27 @@ var Projects = function Projects() {
               { className: 'app-links' },
               _react2.default.createElement(
                 'a',
-                { href: 'https://github.com/pinion31/Voterific', target: '_blank' },
+                { href: 'https://github.com/pinion31/Voterific', target: '_blank', rel: 'noopener noreferrer' },
                 'Github'
               ),
               _react2.default.createElement(
                 'a',
-                { href: 'https://voterific.herokuapp.com', target: '_blank' },
+                { href: 'https://voterific.herokuapp.com', target: '_blank', rel: 'noopener noreferrer' },
                 'App Site'
               )
             ),
             _react2.default.createElement(
               'div',
               { className: 'tech-icons' },
-              _react2.default.createElement(
-                'em',
-                { className: 'icon-react' },
-                ' '
-              ),
-              _react2.default.createElement(
-                'em',
-                { className: 'icon-nodejs' },
-                ' '
-              ),
+              _react2.default.createElement('em', { className: 'icon icon-react' }),
+              _react2.default.createElement('em', { className: 'icon icon-nodejs' }),
               _react2.default.createElement(
                 'span',
-                { className: 'icon-express-alt' },
+                { className: 'icon icon-express-alt' },
                 'e'
               ),
-              _react2.default.createElement(
-                'em',
-                { className: 'icon-mongodb' },
-                ' '
-              ),
-              _react2.default.createElement(
-                'em',
-                { className: 'icon-bootstrap' },
-                ' '
-              )
+              _react2.default.createElement('em', { className: 'icon icon-mongodb' }),
+              _react2.default.createElement('em', { className: 'icon icon-bootstrap' })
             )
           )
         ),
@@ -851,9 +863,13 @@ var Projects = function Projects() {
             null,
             _react2.default.createElement(
               'a',
-              { href: 'https://nightflight.herokuapp.com', target: '_blank' },
-              _react2.default.createElement(_reactBootstrap.Image, { className: 'site-image', src: '../media/nightflight.png', alt: 'Nightflight',
-                responsive: true })
+              { href: 'https://nightflight.herokuapp.com', target: '_blank', rel: 'noopener noreferrer' },
+              _react2.default.createElement(_reactBootstrap.Image, {
+                className: 'site-image',
+                src: '../media/nightflight.png',
+                alt: 'Nightflight',
+                responsive: true
+              })
             ),
             _react2.default.createElement(
               'h3',
@@ -870,43 +886,27 @@ var Projects = function Projects() {
               { className: 'app-links' },
               _react2.default.createElement(
                 'a',
-                { href: 'https://github.com/pinion31/NightFlight', target: '_blank' },
+                { href: 'https://github.com/pinion31/NightFlight', target: '_blank', rel: 'noopener noreferrer' },
                 'Github'
               ),
               _react2.default.createElement(
                 'a',
-                { href: 'https://nightflight.herokuapp.com', target: '_blank' },
+                { href: 'https://nightflight.herokuapp.com', target: '_blank', rel: 'noopener noreferrer' },
                 'App Site'
               )
             ),
             _react2.default.createElement(
               'div',
               { className: 'tech-icons' },
-              _react2.default.createElement(
-                'em',
-                { className: 'icon-react' },
-                ' '
-              ),
-              _react2.default.createElement(
-                'em',
-                { className: 'icon-nodejs' },
-                ' '
-              ),
+              _react2.default.createElement('em', { className: 'icon icon-react' }),
+              _react2.default.createElement('em', { className: 'icon icon-nodejs' }),
               _react2.default.createElement(
                 'span',
-                { className: 'icon-express-alt' },
+                { className: 'icon icon-express-alt' },
                 'e'
               ),
-              _react2.default.createElement(
-                'em',
-                { className: 'icon-mongodb' },
-                ' '
-              ),
-              _react2.default.createElement(
-                'em',
-                { className: 'icon-bootstrap' },
-                ' '
-              )
+              _react2.default.createElement('em', { className: 'icon icon-mongodb' }),
+              _react2.default.createElement('em', { className: 'icon icon-bootstrap' })
             )
           )
         ),
@@ -918,9 +918,13 @@ var Projects = function Projects() {
             null,
             _react2.default.createElement(
               'a',
-              { href: 'https://pinion31.github.io/GameOfLife', target: '_blank' },
-              _react2.default.createElement(_reactBootstrap.Image, { className: 'site-image', src: '../media/gameoflife.png', alt: 'Game of Life',
-                responsive: true })
+              { href: 'https://pinion31.github.io/GameOfLife', target: '_blank', rel: 'noopener noreferrer' },
+              _react2.default.createElement(_reactBootstrap.Image, {
+                className: 'site-image',
+                src: '../media/gameoflife.png',
+                alt: 'Game of Life',
+                responsive: true
+              })
             ),
             _react2.default.createElement(
               'h3',
@@ -930,35 +934,27 @@ var Projects = function Projects() {
             _react2.default.createElement(
               'p',
               { className: 'thumbnail-text' },
-              'A Game Based On John Conway\'s Game Of Life'
+              "A Game Based On John Conway's Game Of Life"
             ),
             _react2.default.createElement(
               'div',
               { className: 'app-links' },
               _react2.default.createElement(
                 'a',
-                { href: 'https://github.com/pinion31/GameOfLife', target: '_blank' },
+                { href: 'https://github.com/pinion31/GameOfLife', target: '_blank', rel: 'noopener noreferrer' },
                 'Github'
               ),
               _react2.default.createElement(
                 'a',
-                { href: 'https://pinion31.github.io/GameOfLife', target: '_blank' },
+                { href: 'https://pinion31.github.io/GameOfLife', target: '_blank', rel: 'noopener noreferrer' },
                 'App Site'
               )
             ),
             _react2.default.createElement(
               'div',
               { className: 'tech-icons-life' },
-              _react2.default.createElement(
-                'em',
-                { className: 'icon-react' },
-                ' '
-              ),
-              _react2.default.createElement(
-                'em',
-                { className: 'icon-bootstrap' },
-                ' '
-              )
+              _react2.default.createElement('em', { className: 'icon icon-react' }),
+              _react2.default.createElement('em', { className: 'icon icon-bootstrap' })
             )
           )
         )
@@ -1000,12 +996,17 @@ var Projects = function Projects() {
               { className: 'download-links' },
               _react2.default.createElement(
                 'a',
-                { href: 'http://bit.ly/1OtX60z', className: 'thumbnail-text' },
+                {
+                  href: 'http://bit.ly/1OtX60z',
+                  className: 'thumbnail-text',
+                  target: '_blank',
+                  rel: 'noopener noreferrer'
+                },
                 _react2.default.createElement('img', { src: '../media/googleplay.jpg', alt: 'Download Chess Runner' })
               ),
               _react2.default.createElement(
                 'a',
-                { href: 'http://apple.co/1VMk1Fx', className: 'thumbnail-text' },
+                { href: 'http://apple.co/1VMk1Fx', className: 'thumbnail-text', target: '_blank', rel: 'noopener noreferrer' },
                 _react2.default.createElement('img', { src: '../media/appstore.jpg', alt: 'Download Chess Runner' })
               )
             )
@@ -1029,8 +1030,12 @@ var Projects = function Projects() {
             ),
             _react2.default.createElement(
               'a',
-              { href: 'https://play.google.com/store/apps/details?id=com.DaliBlue.EndlessFootball&hl=en',
-                className: 'thumbnail-text' },
+              {
+                href: 'https://play.google.com/store/apps/details?id=com.DaliBlue.EndlessFootball&hl=en',
+                className: 'thumbnail-text',
+                target: '_blank',
+                rel: 'noopener noreferrer'
+              },
               _react2.default.createElement('img', { src: '../media/googleplay.jpg', alt: 'Download Endless Football' })
             )
           )
@@ -1041,9 +1046,6 @@ var Projects = function Projects() {
 };
 
 exports.default = Projects;
-
-// <p className='thumbnail-text'>Google Play</p>
-// <p className='thumbnail-text'>App Store</p>
 
 /***/ }),
 
@@ -1061,10 +1063,44 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _reactBootstrap = __webpack_require__(91);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Blog = function Blog() {
-  return _react2.default.createElement('div', null);
+  return _react2.default.createElement(
+    'div',
+    null,
+    _react2.default.createElement(
+      _reactBootstrap.Col,
+      { xs: 7, xsOffset: 2, md: 7, mdOffset: 2 },
+      _react2.default.createElement(
+        _reactBootstrap.PageHeader,
+        { className: 'pageheader' },
+        'New Site Is Finally Up'
+      ),
+      _react2.default.createElement(
+        'p',
+        { className: 'timestamp' },
+        _react2.default.createElement(_reactBootstrap.Glyphicon, { glyph: 'time', className: 'timestamp' }),
+        ' Posted on August 08, 2017'
+      ),
+      _react2.default.createElement(
+        'p',
+        null,
+        'My new portfolio site, onechriscantu.com, is now up, as you can see. For years, I have used daliblue.com but now that is going to be exclusively for any games I create, which probably won\'t be any for awhile. I have too many web application ideas to make happen and I want to delve into React Native and Angular soon. For now, it\'s job search time. Here\'s to getting a great new job!'
+      )
+    ),
+    _react2.default.createElement(
+      _reactBootstrap.Col,
+      { xs: 2, md: 2, pullRight: true },
+      _react2.default.createElement(
+        _reactBootstrap.Well,
+        { className: 'well-text' },
+        'New Site Is Finally Up'
+      )
+    )
+  );
 };
 
 exports.default = Blog;
@@ -1085,7 +1121,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactBootstrap = __webpack_require__(106);
+var _reactBootstrap = __webpack_require__(91);
 
 var _reactRouterBootstrap = __webpack_require__(220);
 
@@ -1094,7 +1130,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var FooterContent = function FooterContent() {
   return _react2.default.createElement(
     'div',
-    { className: 'footer' },
+    { className: 'footer-body' },
     _react2.default.createElement(
       _reactBootstrap.Row,
       null,
@@ -1166,7 +1202,7 @@ var FooterContent = function FooterContent() {
           { className: 'footer-links' },
           _react2.default.createElement(
             'a',
-            { href: 'https://github.com/pinion31', target: '_blank' },
+            { href: 'https://github.com/pinion31', target: '_blank', rel: 'noopener noreferrer' },
             _react2.default.createElement(
               'p',
               null,
@@ -1175,7 +1211,7 @@ var FooterContent = function FooterContent() {
           ),
           _react2.default.createElement(
             'a',
-            { href: 'https://www.linkedin.com/in/chris-cantu-9a46b9a', target: '_blank' },
+            { href: 'https://www.linkedin.com/in/chris-cantu-9a46b9a', target: '_blank', rel: 'noopener noreferrer' },
             _react2.default.createElement(
               'p',
               null,
@@ -1184,7 +1220,7 @@ var FooterContent = function FooterContent() {
           ),
           _react2.default.createElement(
             'a',
-            { href: 'https://twitter.com/IntheLight81', target: '_blank' },
+            { href: 'https://twitter.com/IntheLight81', target: '_blank', rel: 'noopener noreferrer' },
             _react2.default.createElement(
               'p',
               null,
@@ -1193,7 +1229,7 @@ var FooterContent = function FooterContent() {
           ),
           _react2.default.createElement(
             'a',
-            { href: 'https://www.facebook.com/chris.cantu.16', target: '_blank' },
+            { href: 'https://www.facebook.com/chris.cantu.16', target: '_blank', rel: 'noopener noreferrer' },
             _react2.default.createElement(
               'p',
               null,
@@ -1202,7 +1238,7 @@ var FooterContent = function FooterContent() {
           ),
           _react2.default.createElement(
             'a',
-            { href: 'https://www.reddit.com/user/Daliblue', target: '_blank' },
+            { href: 'https://www.reddit.com/user/Daliblue', target: '_blank', rel: 'noopener noreferrer' },
             _react2.default.createElement(
               'p',
               null,

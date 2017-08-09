@@ -19,6 +19,17 @@
   justify-content: center;
 }
 
+@media screen and (max-width: 415px) {
+
+  .name-title {
+    font-size: 5em;
+  }
+
+  .job-title {
+    font-size: 2em;
+  }
+}
+
 
 
 

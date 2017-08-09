@@ -102,6 +102,16 @@ img {
   justify-content: center;
 }
 
+@media screen and (max-width: 415px) {
+  .name-title {
+    font-size: 5em;
+  }
+
+  .job-title {
+    font-size: 2em;
+  }
+}
+
 .navbar-default {
   background: transparent;
   color: antiquewhite;
@@ -147,7 +157,7 @@ img {
   color: black;
 }
 
-.footer {
+.footer-body {
   background-color: #292929;
   padding: 20px 0px 100px 10px;
 }
@@ -184,6 +194,10 @@ img {
   width: 100%;
   margin-left: 35%;
   font-size: 3em;
+}
+
+.icon {
+  margin: 0px 5px;
 }
 
 .icon-nodejs {
@@ -239,4 +253,17 @@ img {
 
 .social-buttons {
   padding: 20px 0px 10px 0px;
+}
+
+.well-text {
+  color: black;
+  font-weight: bold;
+}
+
+.pageheader {
+  font-family: "Aldrich", sans-serif;
+}
+
+.timestamp {
+  margin-right: 5px;
 }

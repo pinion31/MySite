@@ -11,7 +11,14 @@
 }
 
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
-display:block;
+
+}
+
+footer {
+	display:block;
+	position: absolute;
+  width:100%;
+  margin-top: 80px;
 }
 
 .clear {clear: both;}

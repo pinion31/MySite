@@ -28,11 +28,11 @@ const Projects = () =>
                 <a href="https://voterific.herokuapp.com" target="_blank" rel="noopener noreferrer">App Site</a>
               </div>
               <div className="tech-icons">
-                <em className="icon-react" />
-                <em className="icon-nodejs" />
-                <span className="icon-express-alt">e</span>
-                <em className="icon-mongodb" />
-                <em className="icon-bootstrap" />
+                <em className="icon icon-react" />
+                <em className="icon icon-nodejs" />
+                <span className="icon icon-express-alt">e</span>
+                <em className="icon icon-mongodb" />
+                <em className="icon icon-bootstrap" />
               </div>
             </Thumbnail>
           </Col>
@@ -53,11 +53,11 @@ const Projects = () =>
                 <a href="https://nightflight.herokuapp.com" target="_blank" rel="noopener noreferrer">App Site</a>
               </div>
               <div className="tech-icons">
-                <em className="icon-react" />
-                <em className="icon-nodejs" />
-                <span className="icon-express-alt">e</span>
-                <em className="icon-mongodb" />
-                <em className="icon-bootstrap" />
+                <em className="icon icon-react" />
+                <em className="icon icon-nodejs" />
+                <span className="icon icon-express-alt">e</span>
+                <em className="icon icon-mongodb" />
+                <em className="icon icon-bootstrap" />
               </div>
             </Thumbnail>
           </Col>
@@ -78,8 +78,8 @@ const Projects = () =>
                 <a href="https://pinion31.github.io/GameOfLife" target="_blank" rel="noopener noreferrer">App Site</a>
               </div>
               <div className="tech-icons-life">
-                <em className="icon-react" />
-                <em className="icon-bootstrap" />
+                <em className="icon icon-react" />
+                <em className="icon icon-bootstrap" />
               </div>
             </Thumbnail>
           </Col>
