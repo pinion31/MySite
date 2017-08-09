@@ -62,6 +62,24 @@ img {
   padding:4px;
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 522px) {
 
+  .thumbnail-title {
+    font-size: 17px;
+
+  }
+
+  .thumbnail-text {
+    font-size: 12px;
+  }
+
+  .thumbnail a img {
+    max-width: 94%;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .thumbnail a img {
+    max-width: 94%;
+  }
 }

@@ -180,7 +180,7 @@ section:last-child {
 @media all and (max-width: 601px) {
 	#cv {
 		width: 95%;
-		margin: 10px auto;
+		margin: 40px auto;
 		min-width: 280px;
 	}
 

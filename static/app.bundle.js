@@ -1083,27 +1083,25 @@ var Blog = function Blog() {
         'p',
         { className: 'timestamp' },
         _react2.default.createElement(_reactBootstrap.Glyphicon, { glyph: 'time', className: 'timestamp' }),
-        ' Posted on August 08, 2017'
+        'Posted on August 08, 2017'
       ),
       _react2.default.createElement(
         'p',
         null,
         'My new portfolio site, onechriscantu.com, is now up, as you can see. For years, I have used daliblue.com but now that is going to be exclusively for any games I create, which probably won\'t be any for awhile. I have too many web application ideas to make happen and I want to delve into React Native and Angular soon. For now, it\'s job search time. Here\'s to getting a great new job!'
       )
-    ),
-    _react2.default.createElement(
-      _reactBootstrap.Col,
-      { xs: 2, md: 2, pullRight: true },
-      _react2.default.createElement(
-        _reactBootstrap.Well,
-        { className: 'well-text' },
-        'New Site Is Finally Up'
-      )
     )
   );
 };
 
 exports.default = Blog;
+
+/*
+ <Col xs={2} md={2} pullRight>
+   <Well className="well-text">
+     New Site Is Finally Up
+   </Well>
+ </Col>*/
 
 /***/ }),
 

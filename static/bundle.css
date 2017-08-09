@@ -81,6 +81,26 @@ img {
   padding: 4px;
 }
 
+@media screen and (max-width: 522px) {
+  .thumbnail-title {
+    font-size: 17px;
+  }
+
+  .thumbnail-text {
+    font-size: 12px;
+  }
+
+  .thumbnail a img {
+    max-width: 94%;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .thumbnail a img {
+    max-width: 94%;
+  }
+}
+
 .name-title {
   font-family: "Aldrich", sans-serif;
   text-align: center;
@@ -157,6 +177,28 @@ img {
   color: black;
 }
 
+@media screen and (max-width: 768px) {
+  .nav {
+    display: flex;
+  }
+
+  .icon,
+  .other-social-icons {
+    width: 40px;
+    height: 40px;
+  }
+
+  .nav li a {
+    padding: 10px 7px;
+  }
+}
+
+@media screen and (max-width: 835px) {
+  /*.navbar-nav {
+    position: flex;
+  }*/
+}
+
 .footer-body {
   background-color: #292929;
   padding: 20px 0px 100px 10px;
@@ -186,7 +228,7 @@ img {
 
 .tech-icons {
   width: 100%;
-  margin-left: 18%;
+  margin-left: 54px;
   font-size: 3em;
 }
 
@@ -255,6 +297,60 @@ img {
   padding: 20px 0px 10px 0px;
 }
 
+@media screen and (max-width: 1200px) {
+  .tech-icons {
+    margin-left: 7%;
+  }
+}
+
+@media screen and (max-width: 835px) {
+  .tech-icons {
+    margin-left: 30px;
+  }
+
+  .tech-icons-life {
+    margin-left: 78px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .icon,
+  .other-social-icons {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 522px) {
+  .icon {
+    font-size: .6em;
+    margin: 0px 2px;
+  }
+
+  .tech-icons {
+    margin-left: 7%;
+  }
+
+  .tech-icons-life {
+    margin-left: 23%;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .icon {
+    font-size: .6em;
+    margin: 0px 2px;
+  }
+
+  .tech-icons {
+    margin-left: 7%;
+  }
+
+  .tech-icons-life {
+    margin-left: 23%;
+  }
+}
+
 .well-text {
   color: black;
   font-weight: bold;
@@ -266,4 +362,10 @@ img {
 
 .timestamp {
   margin-right: 5px;
+}
+
+@media screen and (max-width: 919px) {
+  .main {
+    margin-bottom: 500px;
+  }
 }
