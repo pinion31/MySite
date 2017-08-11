@@ -265,6 +265,11 @@ img {
     font-size: .55em;
   }
 
+  /*Chris Cantu*/
+  .name-title {
+    font-size: 6em;
+  }
+
   .app-links a {
     font-size: .7em;
   }
@@ -281,6 +286,7 @@ img {
     margin-bottom: 500px;
 
   }
+
 
   .thumbnail-text {
     font-size: .75em;
@@ -304,12 +310,12 @@ img {
 
   .tech-icons,
   .tech-icons-life {
-    font-size: 2em;
+    font-size: 1.65em;
     margin-top: 7px;
   }
 
   .nav li a {
-    padding: 10px 5px;
+    padding: 1px 5px;
   }
 
    .other-social-icons {
@@ -317,13 +323,28 @@ img {
     height:25px;
   }
 
+   /*Chris Cantu*/
+  .name-title {
+    font-size: 6em;
+  }
+
   .main {
-    margin-bottom: 550px;
+    margin-bottom: 600px;
   }
 
    .thumbnail-text img {
-    width: 45px
+    width: 55px
   }
+
+  .nav {
+    display: flex;
+  }
+
+/*Github AppSite**/
+  .app-links a {
+    font-size: .8em;
+  }
+
 }
 
 @media (max-width:600px) and (min-width: 481px) {
@@ -335,10 +356,22 @@ img {
     width:35px;
     height:35px;
   }
+
+  .main {
+    margin-bottom: 600px;
+  }
 }
 
 
 @media (max-width:801px) and (min-width: 601px)  {
+  .main {
+    margin-bottom: 600px;
+  }
+
+  .nav {
+    display: flex;
+  }
+
 
 }
 
