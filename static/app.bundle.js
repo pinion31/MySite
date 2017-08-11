@@ -412,7 +412,7 @@ var AboutMe = function AboutMe() {
                   _react2.default.createElement(
                     'p',
                     null,
-                    'Web development is the perfect union of my passions - Technology and Art - and, as an aspiring web developer, I hope to channel my passions towards creating elegant, responsive and effective websites.'
+                    'I am an aspiring coder looking to transition into web development. Creating websites is the perfect union of my passions - technology and art - and I look forward to applying my skills towards creating elegant, responsive and effective applications.'
                   )
                 )
               ),

@@ -46,26 +46,4 @@
 
 }
 
-@media screen and (max-width: 768px) {
-  .nav {
-    display: flex;
-  }
 
-  .icon, .other-social-icons {
-    width:40px;
-    height:40px;
-  }
-
- .nav li a {
-    padding: 10px 7px;
- }
-}
-
-@media screen and (max-width: 835px) {
-  .nav {
-    //display: flex;
-  }
-  /*.navbar-nav {
-    position: flex;
-  }*/
-}

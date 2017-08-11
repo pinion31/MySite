@@ -1,20 +1,12 @@
-/*#app {
-  background : $background-color;
-  background: -webkit-linear-gradient(red, yellow);
-  background: -o-linear-gradient(red, yellow);
-  background: -moz-linear-gradient(red, yellow);
-  background: linear-gradient($background-color, gray);
-  color:white;
-}*/
-
 body {
-  color: antiquewhite;
+  color: white;
   background: url(9e9ec6af2d7020dde97ca047008ab693.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 img {
@@ -48,7 +40,7 @@ img {
 }
 
 .thumbnail {
-  background-color: antiquewhite;
+  background-color: white;
 }
 
 .thumbnail-title {
@@ -81,26 +73,6 @@ img {
   padding: 4px;
 }
 
-@media screen and (max-width: 522px) {
-  .thumbnail-title {
-    font-size: 17px;
-  }
-
-  .thumbnail-text {
-    font-size: 12px;
-  }
-
-  .thumbnail a img {
-    max-width: 94%;
-  }
-}
-
-@media screen and (max-width: 415px) {
-  .thumbnail a img {
-    max-width: 94%;
-  }
-}
-
 .name-title {
   font-family: "Aldrich", sans-serif;
   text-align: center;
@@ -122,19 +94,11 @@ img {
   justify-content: center;
 }
 
-@media screen and (max-width: 415px) {
-  .name-title {
-    font-size: 5em;
-  }
 
-  .job-title {
-    font-size: 2em;
-  }
-}
 
 .navbar-default {
   background: transparent;
-  color: antiquewhite;
+  color: white;
 }
 
 .navbar {
@@ -143,7 +107,7 @@ img {
 
 .navbar-default .navbar-nav .active a {
   background: transparent;
-  color: antiquewhite;
+  color: white;
 }
 
 .navbar-default .navbar-nav .active a:focus {
@@ -157,11 +121,11 @@ img {
 .navbar-right li a:hover,
 .navbar-right li a:focus,
 .navbar-right li a:active {
-  background: antiquewhite;
+  background: white;
 }
 
 .navbar-default .navbar-nav li a {
-  color: antiquewhite;
+  color: white;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -169,34 +133,12 @@ img {
 .navbar-default .navbar-nav li a:focus,
 .navbar-default .navbar-nav li a:active {
   color: black;
-  background: antiquewhite;
+  background: white;
 }
 
 .navbar-default .navbar-nav .active a:hover,
 .navbar-default .navbar-nav .active a:active {
   color: black;
-}
-
-@media screen and (max-width: 768px) {
-  .nav {
-    display: flex;
-  }
-
-  .icon,
-  .other-social-icons {
-    width: 40px;
-    height: 40px;
-  }
-
-  .nav li a {
-    padding: 10px 7px;
-  }
-}
-
-@media screen and (max-width: 835px) {
-  /*.navbar-nav {
-    position: flex;
-  }*/
 }
 
 .footer-body {
@@ -228,14 +170,16 @@ img {
 
 .tech-icons {
   width: 100%;
-  margin-left: 54px;
+  display: flex;
+  justify-content: center;
   font-size: 3em;
 }
 
 .tech-icons-life {
   width: 100%;
-  margin-left: 35%;
   font-size: 3em;
+  display: flex;
+  justify-content: center;
 }
 
 .icon {
@@ -297,60 +241,6 @@ img {
   padding: 20px 0px 10px 0px;
 }
 
-@media screen and (max-width: 1200px) {
-  .tech-icons {
-    margin-left: 7%;
-  }
-}
-
-@media screen and (max-width: 835px) {
-  .tech-icons {
-    margin-left: 30px;
-  }
-
-  .tech-icons-life {
-    margin-left: 78px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .icon,
-  .other-social-icons {
-    width: 40px;
-    height: 40px;
-  }
-}
-
-@media screen and (max-width: 522px) {
-  .icon {
-    font-size: .6em;
-    margin: 0px 2px;
-  }
-
-  .tech-icons {
-    margin-left: 7%;
-  }
-
-  .tech-icons-life {
-    margin-left: 23%;
-  }
-}
-
-@media screen and (max-width: 415px) {
-  .icon {
-    font-size: .6em;
-    margin: 0px 2px;
-  }
-
-  .tech-icons {
-    margin-left: 7%;
-  }
-
-  .tech-icons-life {
-    margin-left: 23%;
-  }
-}
-
 .well-text {
   color: black;
   font-weight: bold;
@@ -364,8 +254,179 @@ img {
   margin-right: 5px;
 }
 
-@media screen and (max-width: 919px) {
+
+/*
+@media screen and (min-width: 768px) {
   .main {
     margin-bottom: 500px;
   }
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    display: flex;
+  }
+
+  .icon,
+  .other-social-icons {
+    width: 40px;
+    height: 40px;
+  }
+
+  .nav li a {
+    padding: 10px 2px;
+  }
+
+  .icon,
+  .other-social-icons {
+    width: 40px;
+    height: 40px;
+  }
+
+  .tech-icons,
+  .tech-icons-life {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 522px) {
+  .thumbnail-title {
+    font-size: 17px;
+  }
+
+  .thumbnail-text {
+    font-size: 12px;
+  }
+
+  .thumbnail a img {
+    max-width: 94%;
+  }
+}
+
+@media screen and (max-width: 421px) {
+  .icon {
+    margin: 13px 2px 2px 2px;
+  }
+
+  .tech-icons {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 415px) and
+(min-width: 361px) {
+  .thumbnail a img {
+    max-width: 94%;
+  }
+
+  .icon {
+    font-size: .65em;
+  }
+
+  .main {
+    margin-bottom: 500px;
+    width:88%;
+  }
+
+    .name-title {
+    font-size: 5em;
+  }
+
+  .job-title {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .app-links a {
+    font-size: .7em;
+  }
+
+  .nav li a {
+    padding: 10px 5px;
+  }
+
+  footer {
+    width:400px;
+  }
+
+  .main {
+    margin-bottom: 700px;
+    width:90%;
+  }
+}
+
+@media screen and (max-width: 240px) {
+  .icon {
+    font-size: .4em;
+    margin: 13px 2px -25px 2px;
+  }
+}
+*/
+
+@media (max-width: 321px) {
+
+
+}
+
+/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+@media (min-width:320px)  {
+  .icon {
+    font-size: .4em;
+  }
+
+  .nav {
+    display: flex;
+  }
+
+  .app-links a {
+    font-size: .7em;
+  }
+
+  .nav li a {
+    padding: 10px 5px;
+  }
+
+  footer {
+    width:500px;
+  }
+
+  .main {
+    margin-bottom: 500px;
+
+  }
+
+  .thumbnail-text {
+    font-size: .75em;
+  }
+
+
+}
+
+/* smartphones, Android phones, landscape iPhone */
+@media (min-width:480px)  {
+  .main {
+    margin-right: 0px;
+  }
+
+}
+
+/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480
+phones (Android) */
+@media (min-width:600px)  {
+
+}
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width:801px)  {
+  .nav {
+    display: block;
+  }
+}
+ /* big landscape tablets, laptops, and desktops */
+@media (min-width:1025px) {
+}
+/* hi-res laptops and desktops */
+@media (min-width:1281px) {
+
 }

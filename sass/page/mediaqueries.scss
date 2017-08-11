@@ -1,0 +1,91 @@
+@media screen and (min-width: 768px) {
+  .main {
+    margin-bottom:500px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    display: flex;
+  }
+
+  .icon, .other-social-icons {
+    width:40px;
+    height:40px;
+  }
+
+ .nav li a {
+    padding: 10px 7px;
+ }
+
+   .icon, .other-social-icons {
+    width:40px;
+    height:40px;
+
+  }
+
+  .tech-icons, .tech-icons-life {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 522px) {
+
+  .thumbnail-title {
+    font-size: 17px;
+
+  }
+
+  .thumbnail-text {
+    font-size: 12px;
+  }
+
+  .thumbnail a img {
+    max-width: 94%;
+  }
+}
+
+@media screen and (max-width: 421px) {
+  .icon {
+    margin: 13px 2px 2px 2px;
+  }
+
+  .tech-icons {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .thumbnail a img {
+    max-width: 94%;
+  }
+
+  .icon {
+   font-size: .6em;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .app-links a {
+    font-size: .7em;
+  }
+
+  .main {
+    margin-bottom: 700px;
+  }
+}
+
+@media screen and (max-width: 240px) {
+  .icon {
+    font-size: .4em;
+    margin: 13px 2px -25px 2px;
+  }
+}
+
+
+
+
+
+
+
+
