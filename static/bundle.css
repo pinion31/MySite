@@ -1,3 +1,8 @@
+html {
+  overflow-x:hidden;
+
+}
+
 body {
   color: white;
   background: url(9e9ec6af2d7020dde97ca047008ab693.jpg);
@@ -253,6 +258,98 @@ img {
 .timestamp {
   margin-right: 5px;
 }
+/*********************************/
+
+@media (max-width:320px)  {
+  .icon {
+    font-size: .55em;
+  }
+
+  .app-links a {
+    font-size: .7em;
+  }
+
+  .nav li a {
+    padding: 10px 5px;
+  }
+
+  footer {
+    width:500px;
+  }
+
+  .main {
+    margin-bottom: 500px;
+
+  }
+
+  .thumbnail-text {
+    font-size: .75em;
+  }
+
+  .other-social-icons {
+    width:25px;
+    height:25px;
+  }
+
+  .nav {
+    display: flex;
+  }
+}
+
+
+@media (max-width:480px) and (min-width:320px)  {
+  .main {
+    margin-right: 0px;
+  }
+
+  .tech-icons,
+  .tech-icons-life {
+    font-size: 2em;
+    margin-top: 7px;
+  }
+
+  .nav li a {
+    padding: 10px 5px;
+  }
+
+   .other-social-icons {
+    width:25px;
+    height:25px;
+  }
+
+  .main {
+    margin-bottom: 550px;
+  }
+
+   .thumbnail-text img {
+    width: 45px
+  }
+}
+
+@media (max-width:600px) and (min-width: 481px) {
+  .nav {
+    display: flex;
+  }
+
+   .other-social-icons {
+    width:35px;
+    height:35px;
+  }
+}
+
+
+@media (max-width:801px) and (min-width: 601px)  {
+
+}
+
+@media (min-width: 802px) {
+
+
+}
+
+
+
+
 
 
 /*
@@ -363,70 +460,13 @@ img {
   }
 }
 */
-
+/*
 @media (max-width: 321px) {
-
-
-}
-
-/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-@media (min-width:320px)  {
   .icon {
     font-size: .4em;
-  }
-
-  .nav {
-    display: flex;
-  }
-
-  .app-links a {
-    font-size: .7em;
-  }
-
-  .nav li a {
-    padding: 10px 5px;
-  }
-
-  footer {
-    width:500px;
-  }
-
-  .main {
-    margin-bottom: 500px;
-
-  }
-
-  .thumbnail-text {
-    font-size: .75em;
-  }
-
-
-}
-
-/* smartphones, Android phones, landscape iPhone */
-@media (min-width:480px)  {
-  .main {
-    margin-right: 0px;
+    margin: 13px 2px -25px 2px;
   }
 
 }
 
-/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480
-phones (Android) */
-@media (min-width:600px)  {
 
-}
-
-/* tablet, landscape iPad, lo-res laptops ands desktops */
-@media (min-width:801px)  {
-  .nav {
-    display: block;
-  }
-}
- /* big landscape tablets, laptops, and desktops */
-@media (min-width:1025px) {
-}
-/* hi-res laptops and desktops */
-@media (min-width:1281px) {
-
-}

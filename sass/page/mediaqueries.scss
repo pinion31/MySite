@@ -83,9 +83,70 @@
 }
 
 
+/***
+
+@media (min-width:320px)  {
+  .icon {
+    font-size: .4em;
+  }
+
+  .nav {
+    display: flex;
+  }
+
+  .app-links a {
+    font-size: .7em;
+  }
+
+  .nav li a {
+    padding: 10px 5px;
+  }
+
+  footer {
+    width:500px;
+  }
+
+  .main {
+    margin-bottom: 500px;
+
+  }
+
+  .thumbnail-text {
+    font-size: .75em;
+  }
+
+
+}
+
+
+@media (min-width:480px)  {
+  .main {
+    margin-right: 0px;
+  }
+
+}
 
 
 
+@media (min-width:600px)  {
+
+}
+
+
+@media (min-width:801px)  {
+  .nav {
+    display: block;
+  }
+}
+
+@media (min-width:1025px) {
+}
+
+@media (min-width:1281px) {
+
+}
+
+*/
 
 
 
