@@ -1,9 +1,10 @@
-@media (max-width:320px)  {
+@media (max-width: 320px) {
   .icon {
     font-size: .55em;
   }
 
   /*Chris Cantu*/
+
   .name-title {
     font-size: 6em;
   }
@@ -17,31 +18,35 @@
   }
 
   footer {
-    width:500px;
+    width: 500px;
   }
 
   .main {
     margin-bottom: 500px;
-
   }
-
 
   .thumbnail-text {
     font-size: .75em;
   }
 
   .other-social-icons {
-    width:25px;
-    height:25px;
+    width: 25px;
+    height: 25px;
   }
 
   .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
+
+  /*
+  .page-bg {
+     -webkit-background-size: 400px 320px;
+  }*/
 }
 
-
-@media (max-width:480px) and (min-width:320px)  {
+@media (max-width: 480px) and (min-width: 320px) {
   .main {
     margin-right: 0px;
   }
@@ -56,12 +61,13 @@
     padding: 1px 5px;
   }
 
-   .other-social-icons {
-    width:25px;
-    height:25px;
+  .other-social-icons {
+    width: 25px;
+    height: 25px;
   }
 
-   /*Chris Cantu*/
+  /*Chris Cantu*/
+
   .name-title {
     font-size: 6em;
   }
@@ -70,51 +76,64 @@
     margin-bottom: 600px;
   }
 
-   .thumbnail-text img {
-    width: 55px
+  .thumbnail-text img {
+    width: 55px;
   }
 
   .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
 
-/*Github AppSite**/
+  /*Github AppSite**/
+
   .app-links a {
     font-size: .8em;
   }
 
+  /*
+  .page-bg {
+     -webkit-background-size: 600px 480px;
+  }*/
 }
 
-@media (max-width:600px) and (min-width: 481px) {
+@media (max-width: 600px) and (min-width: 481px) {
   .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
 
-   .other-social-icons {
-    width:35px;
-    height:35px;
+  .other-social-icons {
+    width: 35px;
+    height: 35px;
   }
 
   .main {
     margin-bottom: 600px;
   }
+
+  /*
+  .page-bg {
+     -webkit-background-size: 750px 600px;
+  }*/
 }
 
-
-@media (max-width:801px) and (min-width: 601px)  {
+@media (max-width: 801px) and (min-width: 601px) {
   .main {
     margin-bottom: 600px;
   }
 
   .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
 
+  .page-bg {
+     background-size: cover;
+    /* -webkit-background-size: 1250px 1000px;*/
 
+  }
 }
-
-@media (min-width: 802px) {
-
-
-}
-
