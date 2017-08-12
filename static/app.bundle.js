@@ -281,7 +281,7 @@ var RoutedApp = function (_Component) {
     value: function render() {
       return _react2.default.createElement(
         'div',
-        null,
+        { className: 'page-bg' },
         _react2.default.createElement(NavBarHead, null),
         _react2.default.createElement(MainContent, null),
         _react2.default.createElement(

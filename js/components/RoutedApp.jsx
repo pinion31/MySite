@@ -128,7 +128,7 @@ class RoutedApp extends Component {
 
   render() {
     return (
-      <div>
+      <div className="page-bg">
         <NavBarHead />
         <MainContent />
         <footer>
