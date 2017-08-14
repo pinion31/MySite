@@ -412,9 +412,13 @@ img {
     display: flex;
   }
 
+  /*
+
   .page-bg {
      background-size: cover;
-    /* -webkit-background-size: 1250px 1000px;*/
+    -webkit-background-size: 1250px 1000px;
 
-  }
+  }*/
+
+
 }
