@@ -22,6 +22,13 @@ img {
   margin-top: 20px;
 }
 
+footer {
+    position: relative;
+    max-height: 500px;
+    overflow:hidden;
+    top:100px;
+}
+
 .app-links {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -181,7 +188,6 @@ img {
 }
 
 .main {
-  margin-bottom: 200px;
   width:100%;
 }
 

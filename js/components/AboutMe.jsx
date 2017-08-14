@@ -32,7 +32,7 @@ const AboutMe = () =>
                   </div>
 
                   <div className="sectionContent">
-                    <p>I am an aspiring coder looking to transition into web development.
+                    <p>I am a coder looking to transition into web development.
                     Creating websites is the perfect union of my passions - technology
                     and art - and I look forward to applying my skills towards creating
                     elegant, responsive and effective applications.</p>
