@@ -7,7 +7,7 @@ import RoutedApp from './components/RoutedApp';
 
 ReactDOM.render(
   <HashRouter>
-    <RoutedApp/>
+    <RoutedApp />
   </HashRouter>,
   document.getElementById('app'),
 );

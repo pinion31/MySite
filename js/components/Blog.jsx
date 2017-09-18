@@ -46,6 +46,31 @@ const Blog = () =>
           mostly black as a result of an enlarged background.
         </p>
       </Col>
+       <Col xs={7} xsOffset={2} md={7} mdOffset={2}>
+        <PageHeader className="pageheader">Bootstrap Quirkiness</PageHeader>
+        <p className="timestamp">
+          <Glyphicon glyph="time" className="timestamp" />{'Posted on August 31, 2017'}
+        </p>
+        <p>
+          I am nearing the end of my third app called GameTrader. It is a site where you can trade
+          video games with others. I feel like I am really starting to see some return on my web dev
+          skills. I feel like I am getting more efficient and faster with my coding. There are so many
+          small bits of knowledge that I am picking up along the way - things that have or might have
+          costed me a whole day of troubleshooting.
+
+          So, with my current app, GameTrader, I have a component that displays all the games a client
+          currently owns as icons displaying the cover of that game. Essentially, it is mimicking display
+          boxes one might see on shelves at GameStop. However, one issue I realized was that video game
+          covers have different dimension depending on the gaming console. Most game covers are taller than
+          they are wide but some, like N64 games, are wider than tall. This caused irregularities in the arrangement
+          of these covers when using Bootstrap. Sometimes I would see spaces where there should be a game or a
+          new row would start from the right side, instead of the left. My solution was to create a 'container'
+          div for each game with a height of 160px and max-width of 100px. Each game would be free to fill up
+          that container or not fill (depending on the dimensions) but ultimately, each game would take up the same amount
+          of space, regardless of the game cover dimensions. This would allow a consistent display across each row.
+          Just one of the many problems I encountered on this project.
+        </p>
+      </Col>
 
     </div>
   );

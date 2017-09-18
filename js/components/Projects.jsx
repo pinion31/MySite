@@ -13,6 +13,31 @@ const Projects = () =>
         <Row>
           <Col xs={6} md={4}>
             <Thumbnail>
+              <a href="https://gametrader0.herokuapp.com" target="_blank" rel="noopener noreferrer">
+                <Image
+                  className="site-image"
+                  src="../media/gametrader.png"
+                  alt="GameTrader"
+                  responsive
+                />
+              </a>
+              <h3 className="thumbnail-title">GameTrader </h3>
+              <p className="thumbnail-text">A Full-Stack App To Trade Video Games</p>
+              <div className="app-links">
+                <a href="https://github.com/pinion31/GameTrader" target="_blank" rel="noopener noreferrer">Github</a>
+                <a href="https://gametrader0.herokuapp.com" target="_blank" rel="noopener noreferrer">App Site</a>
+              </div>
+              <div className="tech-icons">
+                <em className="icon icon-react" />
+                <em className="icon icon-nodejs" />
+                <span className="icon icon-express-alt">e</span>
+                <em className="icon icon-mongodb" />
+                <em className="icon icon-bootstrap" />
+              </div>
+            </Thumbnail>
+          </Col>
+          <Col xs={6} md={4}>
+            <Thumbnail>
               <a href="https://voterific.herokuapp.com" target="_blank" rel="noopener noreferrer">
                 <Image
                   className="site-image"
