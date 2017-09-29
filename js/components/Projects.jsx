@@ -86,28 +86,6 @@ const Projects = () =>
               </div>
             </Thumbnail>
           </Col>
-          <Col xs={6} md={4}>
-            <Thumbnail>
-              <a href="https://pinion31.github.io/GameOfLife" target="_blank" rel="noopener noreferrer">
-                <Image
-                  className="site-image"
-                  src="../media/gameoflife.png"
-                  alt="Game of Life"
-                  responsive
-                />
-              </a>
-              <h3 className="thumbnail-title">Game of Life </h3>
-              <p className="thumbnail-text">{"A Game Based On John Conway's Game Of Life"}</p>
-              <div className="app-links">
-                <a href="https://github.com/pinion31/GameOfLife" target="_blank" rel="noopener noreferrer">Github</a>
-                <a href="https://pinion31.github.io/GameOfLife" target="_blank" rel="noopener noreferrer">App Site</a>
-              </div>
-              <div className="tech-icons-life">
-                <em className="icon icon-react" />
-                <em className="icon icon-bootstrap" />
-              </div>
-            </Thumbnail>
-          </Col>
         </Row>
         <Row>
           <Col xs={6} md={4} className="link-box thumb-box">

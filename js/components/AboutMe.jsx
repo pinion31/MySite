@@ -83,16 +83,24 @@ const AboutMe = () =>
 
                 <div className="sectionContent">
                   <article>
-                    <h2><b>Texas State Low Cost Insurance</b> - Senior Underwriter</h2>
-                    <p className="subDetails">Oct 2012 - June 2017</p>
+                    <h2><b>Dali Blue Games</b> - Game Programmer/Artist</h2>
+                    <p className="subDetails">Dec 2011 - Present</p>
                     <ul>
-                      <li>Trained and guided new underwriters</li>
-                      <li>Provided technical and retail support to agents in field</li>
-                      <li>Developed new guidelines and workflows for underwriting department</li>
-                      <li>Assisted customer with policy changes and billing support</li>
+                      <li>Designed, developed and released Chess Runner for Android and iOS (10,000 downloads)</li>
+                      <li>Developed and released Endless Football for Android (&#60; 1,000 downloads)</li>
+                      <li>Utilized Unityscript(Javascript) and C# in game development</li>
+                      <li>Modelled and rigged 3D models in 3D Studio Max</li>
                     </ul>
                   </article>
-
+                  <article>
+                    <h2><b>Freeway Insurance</b> - Senior Underwriter</h2>
+                    <p className="subDetails">Oct 2012 - June 2017</p>
+                    <ul>
+                      <li>Trained and mentored new underwriters</li>
+                      <li>Provided technical and retail support to agents in field</li>
+                      <li>Developed new guidelines and workflows for underwriting department</li>
+                    </ul>
+                  </article>
                   <article>
                     <h2><b>Escape Hatch Entertainment,LLC</b> - Game Artist</h2>
                     <p className="subDetails">July 2010 - Dec 2011</p>
@@ -107,10 +115,9 @@ const AboutMe = () =>
                     <h2><b>CBS 42 NEWS</b> - Video Editor</h2>
                     <p className="subDetails">August 2004 - Jan 2009</p>
                     <ul>
-                      <li>Developed new digital editing workflow in transition from analog</li>
                       <li>Collaborated with producers and reporters in a fast-paced environment
                       to create content for evening news</li>
-                      <li>Introduced and trained new editors</li>
+                      <li>Mentored and trained new editors</li>
                     </ul>
                   </article>
                 </div>
@@ -127,6 +134,11 @@ const AboutMe = () =>
                     <p className="subDetails">Sept 2000 - May 2004</p>
                     <p><b>Radio-Television-Film</b>(Major)</p>
                     <p><b>Concentration in Computer Science</b> (Unofficial Minor)</p>
+                  </article>
+                  <article>
+                    <h2><b>Austin Community College</b></h2>
+                    <p className="subDetails">Jan 2009 - Dec 2010</p>
+                    <p><b>Game Development</b>(Associates)</p>
                   </article>
                 </div>
                 <div className="clear" />
