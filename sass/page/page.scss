@@ -23,5 +23,11 @@ footer {
     top:100px;
 }
 
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
 
 

@@ -18,6 +18,24 @@
   margin:0px 5px;
 }
 
+.icon-caption {
+  font-size: 12px;
+  position: absolute;
+  display: none;
+  font-weight: bold;
+}
+
+.icon-group {
+  transition: all .4s;
+
+  &:hover {
+    transform: translateY(-15px) scale(1.1);
+    & .icon-caption {
+      display: block;
+    }
+  }
+}
+
 .icon-nodejs {
   color:green;
 

@@ -3,14 +3,14 @@ import {Grid, Row, Col, Thumbnail, Image} from 'react-bootstrap';
 
 const Projects = () =>
   (
-    <div className="quickFade">
+    <div>
       <Grid>
         <Row>
           <Col xs={6} md={4} className="link-box thumb-box">
-            <h1>Portfolio</h1>
+            <h1 className="portfolio">Portfolio</h1>
           </Col>
         </Row>
-        <Row>
+        <Row className="project-row">
           <Col xs={6} md={4}>
             <Thumbnail>
               <a href="https://gametrader0.herokuapp.com" target="_blank" rel="noopener noreferrer">
@@ -28,11 +28,26 @@ const Projects = () =>
                 <a href="https://gametrader0.herokuapp.com" target="_blank" rel="noopener noreferrer">App Site</a>
               </div>
               <div className="tech-icons">
-                <em className="icon icon-react" />
-                <em className="icon icon-nodejs" />
-                <span className="icon icon-express-alt">e</span>
-                <em className="icon icon-mongodb" />
-                <em className="icon icon-bootstrap" />
+                <div className="icon-group">
+                  <em className="icon icon-react" />
+                  <p className="icon-caption">ReactJS</p>
+                </div>
+                <div className="icon-group">
+                  <em className="icon icon-nodejs" />
+                  <p className="icon-caption">NodeJS</p>
+                </div>
+                <div className="icon-group">
+                  <span className="icon icon-express-alt">e</span>
+                  <p className="icon-caption">Express</p>
+                </div>
+                <div className="icon-group">
+                  <em className="icon icon-mongodb" />
+                  <p className="icon-caption">MongoDB</p>
+                </div>
+                <div className="icon-group">
+                  <em className="icon icon-bootstrap" />
+                  <p className="icon-caption">Bootstrap</p>
+                </div>
               </div>
             </Thumbnail>
           </Col>
@@ -53,11 +68,26 @@ const Projects = () =>
                 <a href="https://voterific.herokuapp.com" target="_blank" rel="noopener noreferrer">App Site</a>
               </div>
               <div className="tech-icons">
-                <em className="icon icon-react" />
-                <em className="icon icon-nodejs" />
-                <span className="icon icon-express-alt">e</span>
-                <em className="icon icon-mongodb" />
-                <em className="icon icon-bootstrap" />
+                <div className="icon-group">
+                  <em className="icon icon-react" />
+                  <p className="icon-caption">ReactJS</p>
+                </div>
+                <div className="icon-group">
+                  <em className="icon icon-nodejs" />
+                  <p className="icon-caption">NodeJS</p>
+                </div>
+                <div className="icon-group">
+                  <span className="icon icon-express-alt">e</span>
+                  <p className="icon-caption">Express</p>
+                </div>
+                <div className="icon-group">
+                  <em className="icon icon-mongodb" />
+                  <p className="icon-caption">MongoDB</p>
+                </div>
+                <div className="icon-group">
+                  <em className="icon icon-bootstrap" />
+                  <p className="icon-caption">Bootstrap</p>
+                </div>
               </div>
             </Thumbnail>
           </Col>
@@ -78,23 +108,38 @@ const Projects = () =>
                 <a href="https://nightflight.herokuapp.com" target="_blank" rel="noopener noreferrer">App Site</a>
               </div>
               <div className="tech-icons">
-                <em className="icon icon-react" />
-                <em className="icon icon-nodejs" />
-                <span className="icon icon-express-alt">e</span>
-                <em className="icon icon-mongodb" />
-                <em className="icon icon-bootstrap" />
+                <div className="icon-group">
+                  <em className="icon icon-react" />
+                  <p className="icon-caption">ReactJS</p>
+                </div>
+                <div className="icon-group">
+                  <em className="icon icon-nodejs" />
+                  <p className="icon-caption">NodeJS</p>
+                </div>
+                <div className="icon-group">
+                  <span className="icon icon-express-alt">e</span>
+                  <p className="icon-caption">Express</p>
+                </div>
+                <div className="icon-group">
+                  <em className="icon icon-mongodb" />
+                  <p className="icon-caption">MongoDB</p>
+                </div>
+                <div className="icon-group">
+                  <em className="icon icon-bootstrap" />
+                  <p className="icon-caption">Bootstrap</p>
+                </div>
               </div>
             </Thumbnail>
           </Col>
         </Row>
-        <Row>
+        <Row className="project-row">
           <Col xs={6} md={4} className="link-box thumb-box">
             <h1>Other Projects</h1>
           </Col>
         </Row>
         <Row>
           <Col xs={6} md={4}>
-            <Thumbnail src="../media/ChessRunner.png" alt="Chess Runner">
+            <Thumbnail src="../media/ChessRunner.png" alt="Chess Runner" className="app-icon">
               <h3 className="thumbnail-title">Chess Runner </h3>
               <p className="thumbnail-text">Endless Runner Meets Real-time Chess</p>
               <div className="download-links">
@@ -113,7 +158,7 @@ const Projects = () =>
             </Thumbnail>
           </Col>
           <Col xs={6} md={4}>
-            <Thumbnail src="../media/EndlessFootball.png" alt="Endless Football">
+            <Thumbnail src="../media/EndlessFootball.png" alt="Endless Football" className="app-icon">
               <h3 className="thumbnail-title">Endless Football</h3>
               <p className="thumbnail-text">Football Arcade Game</p>
               <a
@@ -129,8 +174,6 @@ const Projects = () =>
         </Row>
       </Grid>
     </div>
-
-
   );
 
 

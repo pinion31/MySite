@@ -2,13 +2,124 @@
   font-family: $Aldrich;
   text-align: center;
   font-size: 7em;
+  letter-spacing: 0vw;
+  animation: .75s cubic-bezier(0.6, -0.28, 0.735, 0.045) 1s 1 bounceIn;
+  animation-fill-mode: backwards;
+}
+
+@keyframes bounceIn {
+  0% {
+    letter-spacing: 3vw;
+    opacity: 0;
+  }
+
+  90% {
+    letter-spacing: -1vw;
+    opacity: 1;
+  }
+  100% {
+    letter-spacing: 0vw;
+  }
+}
+
+@-webkit-keyframes bounceIn {
+  0% {
+    letter-spacing: 3vw;
+
+  }
+
+  90% {
+    letter-spacing: -1vw;
+  }
+  100% {
+    letter-spacing: 0vw;
+  }
+}
+
+@-moz-keyframes bounceIn {
+  0% {
+    letter-spacing: 3vw;
+
+  }
+
+  90% {
+    letter-spacing: -1vw;
+  }
+  100% {
+    letter-spacing: 0vw;
+  }
 }
 
 .job-title {
   font-family: $Aldrich;
   text-align: center;
   font-size: 3em;
+  animation: .5s cubic-bezier(0.55, 0.055, 0.675, 0.19) 1.75s 1 moveUp;
+  animation-fill-mode: backwards;
+
 }
+
+@keyframes moveUp {
+  0% {
+    opacity: 0;
+    transform: translateY(230px);
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  90% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+}
+
+@-webkit-keyframes moveUp {
+  0% {
+    opacity: 0;
+    transform: translateY(230px);
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  90% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@-moz-keyframes moveUp {
+  0% {
+    opacity: 0;
+    transform: translateY(230px);
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  90% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
 
 .intro {
   margin: 100px 0px 25px 0px;
@@ -19,7 +130,52 @@
   justify-content: center;
 }
 
+.portfolio {
+  animation: .5s cubic-bezier(0.55, 0.055, 0.675, 0.19) 2.5s 1 moveRight;
+  animation-fill-mode: backwards;
+}
 
+@keyframes moveRight {
+  0% {
+    transform: translateX(-28vw);
+  }
+
+  90% {
+    transform: translateX(1vw);
+  }
+
+  100% {
+    transform: translateX(0vw);
+  }
+}
+
+@-webkit-keyframes moveRight {
+  0% {
+    transform: translateX(-28vw);
+  }
+
+  90% {
+    transform: translateX(1vw);
+  }
+
+  100% {
+    transform: translateX(0vw);
+  }
+}
+
+@-moz-keyframes moveRight {
+  0% {
+    transform: translateX(-28vw);
+  }
+
+  90% {
+    transform: translateX(1vw);
+  }
+
+  100% {
+    transform: translateX(0vw);
+  }
+}
 
 
 

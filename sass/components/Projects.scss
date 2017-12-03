@@ -25,11 +25,53 @@ img {
   width: 100%;;
   height: 150px;
   margin-top: 0px;
-  box-shadow: 5px 5px 5px grey;
+  box-shadow: 5px 5px 5px rgba(grey, .5);
+  transition: all .4s;
+
+  &:hover {
+    transform: scale(1.2);
+    z-index: 100;
+  }
+}
+
+.app-icon img {
+  transition: all .4s;
+
+  &:hover {
+    transform: scale(1.2);
+    z-index: 100;
+  }
+}
+
+.project-row {
+  animation: .5s cubic-bezier(0.55, 0.055, 0.675, 0.19) 2.5s 1 popIn;
+  animation-fill-mode: backwards;
+}
+
+
+@keyframes popIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes popIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .thumbnail {
   background-color: $bg-white;
+  transition: all .4s;
 }
 
 .thumbnail-title {
