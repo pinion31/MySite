@@ -3,8 +3,8 @@
   text-align: center;
   font-size: 7em;
   letter-spacing: 0vw;
-  animation: .75s cubic-bezier(0.6, -0.28, 0.735, 0.045) 1s 1 bounceIn;
-  animation-fill-mode: backwards;
+  // animation: .75s cubic-bezier(0.6, -0.28, 0.735, 0.045) 1s 1 bounceIn;
+  // animation-fill-mode: backwards;
 }
 
 @keyframes bounceIn {
@@ -54,8 +54,8 @@
   font-family: $Aldrich;
   text-align: center;
   font-size: 3em;
-  animation: .5s cubic-bezier(0.55, 0.055, 0.675, 0.19) 1.75s 1 moveUp;
-  animation-fill-mode: backwards;
+  // animation: .5s cubic-bezier(0.55, 0.055, 0.675, 0.19) 1.75s 1 moveUp;
+  // animation-fill-mode: backwards;
 
 }
 
@@ -131,8 +131,8 @@
 }
 
 .portfolio {
-  animation: .5s cubic-bezier(0.55, 0.055, 0.675, 0.19) 2.5s 1 moveRight;
-  animation-fill-mode: backwards;
+  // animation: .5s cubic-bezier(0.55, 0.055, 0.675, 0.19) 2.5s 1 moveRight;
+  // animation-fill-mode: backwards;
 }
 
 @keyframes moveRight {

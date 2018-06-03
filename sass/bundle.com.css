@@ -103,9 +103,7 @@ img {
   font-family: "Aldrich", sans-serif;
   text-align: center;
   font-size: 7em;
-  letter-spacing: 0vw;
-  animation: 0.75s cubic-bezier(0.6, -0.28, 0.735, 0.045) 1s 1 bounceIn;
-  animation-fill-mode: backwards; }
+  letter-spacing: 0vw; }
 
 @keyframes bounceIn {
   0% {
@@ -136,9 +134,7 @@ img {
 .job-title {
   font-family: "Aldrich", sans-serif;
   text-align: center;
-  font-size: 3em;
-  animation: 0.5s cubic-bezier(0.55, 0.055, 0.675, 0.19) 1.75s 1 moveUp;
-  animation-fill-mode: backwards; }
+  font-size: 3em; }
 
 @keyframes moveUp {
   0% {
@@ -182,10 +178,6 @@ img {
 .menu-box {
   display: flex;
   justify-content: center; }
-
-.portfolio {
-  animation: 0.5s cubic-bezier(0.55, 0.055, 0.675, 0.19) 2.5s 1 moveRight;
-  animation-fill-mode: backwards; }
 
 @keyframes moveRight {
   0% {
