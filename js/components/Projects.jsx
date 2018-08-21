@@ -53,19 +53,59 @@ const Projects = () =>
           </Col>
           <Col xs={6} md={4}>
             <Thumbnail>
-              <a href="https://voterific.herokuapp.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://sparkle-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                 <Image
                   className="site-image"
-                  src="../media/voterific.png"
-                  alt="Voterific"
+                  src="../media/sparkle.png"
+                  alt="Sparkle"
                   responsive
                 />
               </a>
-              <h3 className="thumbnail-title">Voterific </h3>
-              <p className="thumbnail-text">A Full-Stack App To Create Online Polls</p>
+              <h3 className="thumbnail-title">Sparkle </h3>
+              <p className="thumbnail-text">A Full-Stack App To Save Pics You Love</p>
               <div className="app-links">
-                <a href="https://github.com/pinion31/Voterific" target="_blank" rel="noopener noreferrer">Github</a>
-                <a href="https://voterific.herokuapp.com" target="_blank" rel="noopener noreferrer">App Site</a>
+                <a href="https://github.com/pinion31/Snapterest" target="_blank" rel="noopener noreferrer">Github</a>
+                <a href="https://sparkle-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">App Site</a>
+              </div>
+              <div className="tech-icons">
+                <div className="icon-group">
+                  <em className="icon icon-angular" />
+                  <p className="icon-caption">Angular</p>
+                </div>
+                <div className="icon-group">
+                  <em className="icon icon-nodejs" />
+                  <p className="icon-caption">NodeJS</p>
+                </div>
+                <div className="icon-group">
+                  <span className="icon icon-express-alt">e</span>
+                  <p className="icon-caption">Express</p>
+                </div>
+                <div className="icon-group">
+                  <em className="icon icon-postgres" />
+                  <p className="icon-caption">PostgreSQL</p>
+                </div>
+                <div className="icon-group">
+                  <em className="icon icon-bootstrap" />
+                  <p className="icon-caption">Bootstrap</p>
+                </div>
+              </div>
+            </Thumbnail>
+          </Col>
+          <Col xs={6} md={4}>
+            <Thumbnail>
+              <a href="https://nightflight.herokuapp.com" target="_blank" rel="noopener noreferrer">
+                <Image
+                  className="site-image"
+                  src="../media/nightflight.png"
+                  alt="Nightflight"
+                  responsive
+                />
+              </a>
+              <h3 className="thumbnail-title">Night Flight </h3>
+              <p className="thumbnail-text">A Full-Stack App For Nightlife Coordination</p>
+              <div className="app-links">
+                <a href="https://github.com/pinion31/NightFlight" target="_blank" rel="noopener noreferrer">Github</a>
+                <a href="https://nightflight.herokuapp.com" target="_blank" rel="noopener noreferrer">App Site</a>
               </div>
               <div className="tech-icons">
                 <div className="icon-group">
@@ -93,19 +133,19 @@ const Projects = () =>
           </Col>
           <Col xs={6} md={4}>
             <Thumbnail>
-              <a href="https://nightflight.herokuapp.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://voterific.herokuapp.com" target="_blank" rel="noopener noreferrer">
                 <Image
                   className="site-image"
-                  src="../media/nightflight.png"
-                  alt="Nightflight"
+                  src="../media/voterific.png"
+                  alt="Voterific"
                   responsive
                 />
               </a>
-              <h3 className="thumbnail-title">Night Flight </h3>
-              <p className="thumbnail-text">A Full-Stack App For Nightlife Coordination</p>
+              <h3 className="thumbnail-title">Voterific </h3>
+              <p className="thumbnail-text">A Full-Stack App To Create Online Polls</p>
               <div className="app-links">
-                <a href="https://github.com/pinion31/NightFlight" target="_blank" rel="noopener noreferrer">Github</a>
-                <a href="https://nightflight.herokuapp.com" target="_blank" rel="noopener noreferrer">App Site</a>
+                <a href="https://github.com/pinion31/Voterific" target="_blank" rel="noopener noreferrer">Github</a>
+                <a href="https://voterific.herokuapp.com" target="_blank" rel="noopener noreferrer">App Site</a>
               </div>
               <div className="tech-icons">
                 <div className="icon-group">

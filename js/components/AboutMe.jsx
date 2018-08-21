@@ -32,9 +32,8 @@ const AboutMe = () =>
                   </div>
 
                   <div className="sectionContent">
-                    <p>I am a coder looking to transition into web development.
-                    Creating websites is the perfect union of my passions - technology
-                    and art - and I look forward to applying my skills towards creating
+                    <p>Creating websites is the perfect union of my passions - technology
+                    and art. I love learning new technologies and creating
                     elegant, responsive and effective applications.</p>
                   </div>
                 </article>
@@ -53,18 +52,18 @@ const AboutMe = () =>
                     <li>CSS</li>
                     <li>JQuery</li>
                     <li>React/Redux</li>
-                    <li>React-Bootstrap</li>
+                    <li>React Native</li>
+                    <li>Angular</li>
+                    <li>Web3/Ethereum</li>
+                    <li>Bootstrap</li>
                     <li>Flexbox</li>
                     <li>NodeJS</li>
                     <li>Express</li>
                     <li>MongoDB</li>
                     <li>Git/Github</li>
                     <li>Webpack</li>
-                    <li>Gulp</li>
                     <li>Sass</li>
-                    <li>D3</li>
                     <li>Python</li>
-                    <li>C#</li>
                     <li>Unity3D</li>
                     <li>Unityscript</li>
                     <li>3D Studio Max</li>
@@ -83,8 +82,18 @@ const AboutMe = () =>
 
                 <div className="sectionContent">
                   <article>
+                    <h2><b>Keystoke LLC</b> - Full Stack Javascript Developer</h2>
+                    <p className="subDetails">Nov 2017 - Present</p>
+                    <ul>
+                      <li>Planned and developed front-end (React) and back-end (NodeJS) for MVP applications </li>
+                      <li>Converted UI mockups and design documents into full stack web and progressive web applications</li>
+                      <li>Completed projects to client specifications within scrum environment.</li>
+                      <li>Utilized Ethereum blockchain technology</li>
+                    </ul>
+                  </article>
+                  <article>
                     <h2><b>Dali Blue Games</b> - Game Programmer/Artist</h2>
-                    <p className="subDetails">Dec 2011 - Present</p>
+                    <p className="subDetails">Dec 2011 - Nov 2017</p>
                     <ul>
                       <li>Designed, developed and released Chess Runner for Android and iOS (10,000 downloads)</li>
                       <li>Developed and released Endless Football for Android (&#60; 1,000 downloads)</li>
@@ -108,16 +117,6 @@ const AboutMe = () =>
                       <li>Created in-game environments and assets under deadline</li>
                       <li>Conceptualized, modeled and textured character models</li>
                       <li>Tested player experience</li>
-                    </ul>
-                  </article>
-
-                  <article>
-                    <h2><b>CBS 42 NEWS</b> - Video Editor</h2>
-                    <p className="subDetails">August 2004 - Jan 2009</p>
-                    <ul>
-                      <li>Collaborated with producers and reporters in a fast-paced environment
-                      to create content for evening news</li>
-                      <li>Mentored and trained new editors</li>
                     </ul>
                   </article>
                 </div>
